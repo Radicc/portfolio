@@ -47,18 +47,17 @@
 .ulNav {
   position: relative;
   top: 10%;
-  left: 55%;
+  left: 50%;
 }
 .ulNav li {
   position: relative;
-  padding: 0 0 120px 0;
   list-style-type: none;
   text-decoration: none;
-  font-size: 5.8em;
+  font-size: 5em;
 }
 .ulNav li a {
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-  position: absolute;
+  position: relative;
   color: #16e561;
   text-shadow: 2px 2px #086425;
   font-family: "Chakra Petch", sans-serif;
