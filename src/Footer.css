@@ -1,0 +1,301 @@
+.containerFooter {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+  margin-top: 20dvh;
+}
+.Footer1 {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+
+  justify-content: center;
+  background-color: #000000;
+  width: 100%;
+  height: 15dvh;
+}
+
+.socialFooterContainer1 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+
+  background: rgb(46, 46, 46);
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer1:hover {
+  background: rgba(46, 46, 46, 0.8);
+}
+.socialFooterContainer2 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+
+  background: rgba(22, 111, 134, 0.88);
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer2:hover {
+  background: rgba(22, 111, 134, 0.83);
+}
+.socialFooterContainer3 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  background: rgba(21, 207, 231, 0.8);
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer3:hover {
+  background: rgba(21, 207, 231, 0.75);
+}
+.socialFooterContainer4 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  background: rgb(107, 21, 141);
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer4:hover {
+  background: rgba(107, 21, 141, 0.94);
+}
+.footerSocial {
+  position: relative;
+  display: flex;
+  width: 16%;
+  right: 6%;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.footerText {
+  position: relative;
+  display: flex;
+  font-size: 3em;
+  font-family: "Chakra Petch", sans-serif;
+
+  color: antiquewhite;
+  left: 4%;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+
+.Footer2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #16e561;
+  width: 100%;
+  height: 8dvh;
+  margin: 0;
+  padding: 0;
+}
+.Footer2 a {
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  color: rgb(240, 240, 240);
+  font-family: "Chakra Petch", sans-serif;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.Footer2 a:hover {
+  text-decoration: underline;
+}
+.Footer2 img {
+  position: relative;
+  cursor: pointer;
+  width: 4.5%;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+.MailForm-Footer2 {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 150dvh;
+  background-color: rgb(20, 20, 20);
+
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10dvh;
+}
+.WhitePaper {
+  display: flex;
+  position: relative;
+  width: 70%;
+  height: 90%;
+  background-color: #c5cbd2;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+  font-family: "Chakra Petch", sans-serif;
+}
+.LeftPaper {
+  display: flex;
+  position: relative;
+  width: 25%;
+  height: auto;
+  flex-direction: column;
+  background-color: #16e561;
+  border-radius: 10px 0 0 10px;
+  gap: 3em;
+}
+.CvPicture {
+  position: relative;
+  border-radius: 10px 0 0 0;
+  height: auto;
+}
+
+.Education {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  flex-basis: 1;
+}
+.Education h2 {
+  font-size: 2.5em;
+  text-shadow: 1.5px 1.5px #060810;
+}
+.Education p {
+  font-size: 1.1em;
+
+  width: 90%;
+}
+.Reference {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 1;
+}
+.Reference h2 {
+  font-size: 2.5em;
+  text-shadow: 1.5px 1.5px #060810;
+  margin-bottom: 2dvh;
+}
+.Reference p {
+  font-size: 1.1em;
+}
+.CvContact {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 10dvh;
+}
+.CvContact h3 {
+  background-color: rgb(20, 20, 20);
+  font-size: 1.8em;
+  text-shadow: 1.2px 1.2px rgb(182, 182, 182);
+  color: rgb(192, 192, 192);
+  width: 100%;
+  text-align: center;
+}
+.CvContact p,
+a {
+  align-self: center;
+  font-size: 1.3em;
+}
+.RightPaper {
+  display: flex;
+  position: relative;
+  width: 75%;
+  top: 15dvh;
+  flex-basis: 1;
+  border-radius: 0 10px 10px 0;
+  flex-direction: column;
+  gap: 8dvh;
+}
+.NameTitul {
+  display: flex;
+  position: relative;
+  background-color: #585d63;
+  width: 100%;
+  height: 25dvh;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.NameTitul h1 {
+  position: relative;
+  font-size: 6em;
+  left: 10dvh;
+
+  color: whitesmoke;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.NameTitul p {
+  position: relative;
+  font-size: 1.5em;
+  left: 11dvh;
+
+  color: whitesmoke;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.AboutMe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  gap: 3.5dvh;
+}
+.AboutMe h3 {
+  position: relative;
+  display: flex;
+  font-size: 2.5em;
+  left: 13dvh;
+
+  border: solid;
+  border-width: 0 0 0.5dvh 0;
+
+  width: 70%;
+  padding-left: 2dvh;
+  color: #000000;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.AboutMe p {
+  position: relative;
+  display: flex;
+  font-size: 1.2em;
+  width: 70%;
+  align-self: center;
+}
+.Footer3 {
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10dvh;
+  background-color: rgb(20, 20, 20);
+}
+.Footer3 p {
+  color: #16e561;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.2rem;
+}

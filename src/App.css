@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Rubik+Vinyl&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url("../src/images/iconmonstr-cursor-1.png"), default;
+}
+.App {
+  background: rgb(20, 20, 20);
+}
+.header {
+  position: fixed;
+  display: flex;
+
+  justify-content: center;
+  background-color: #10e956;
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+
+  box-shadow: 0px 3px #086425;
+  z-index: 1;
+
+  animation: headerAnimaiton 1s ease forwards;
+  transform: translateY(-105%);
+}
+@keyframes headerAnimaiton {
+  0% {
+    transform: translateY(-105%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+.Radicc {
+  position: absolute;
+  display: flex;
+  left: 6%;
+  top: 15%;
+
+  color: #060810;
+  font-size: 50px;
+  padding: 0;
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: 2px 2px #060810;
+}
+.nav {
+  position: relative;
+  padding: 1.1% 0 0 0;
+  display: flex;
+  color: #060810;
+}
+.nav li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+}
+.nav li a {
+  font-size: 25px;
+  cursor: pointer;
+  font-family: "Chakra Petch", sans-serif;
+}
+.nav li a:hover {
+  color: black;
+}
+
+.toolsBar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: #0fe955;
+
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  box-shadow: 0px 3px #086425;
+  z-index: 0;
+}
+.toolsLogo {
+  padding: 25px 0;
+  margin: 0;
+
+  display: flex;
+  position: relative;
+  width: 15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+  z-index: 0;
+}
+
+.myProjectsBody {
+  display: flex;
+
+  flex-direction: column;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  gap: 20dvh;
+  background-color: rgb(20, 20, 20);
+}
+.projectsText {
+  position: relative;
+
+  font-size: 6em;
+  font-family: "Chakra Petch", sans-serif;
+
+  margin-top: 100px;
+  color: #16e561;
+  text-shadow: 2px 2px #086425;
+}
+.projectBox1 {
+  width: 90%;
+
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  gap: 10%;
+}
+.projectContainer {
+  display: flex;
+  position: relative;
+  width: 45%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.projectContainer h2 {
+  position: relative;
+  order: 1;
+  color: #16e561;
+  text-shadow: 2px 2px #086425;
+  font-size: 2.2em;
+  font-family: "Chakra Petch", sans-serif;
+}
+.projectContainer button {
+  position: relative;
+  order: 3;
+}
+.imgBox1 {
+  display: flex;
+  position: relative;
+  width: 45%;
+
+  border-radius: 6px;
+
+  filter: drop-shadow(0 0 0.4rem #16e561);
+}
+.imgBox1:hover {
+  filter: drop-shadow(0 0 0.9rem #16e561);
+}
+.textBox1 {
+  display: flex;
+  position: relative;
+  width: 80%;
+  padding: 0;
+  order: 2;
+
+  font-size: 1.2em;
+  color: rgb(192, 192, 192);
+  text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.projectBox2 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 10%;
+
+  padding: 0;
+  margin: 0;
+}
+.projectContainer2 {
+  display: flex;
+  position: relative;
+  width: 45%;
+  flex-direction: column;
+  gap: 10%;
+
+  justify-content: center;
+  align-items: center;
+}
+.projectContainer2 h2 {
+  position: relative;
+  order: 1;
+  color: #16e561;
+  text-shadow: 2px 2px #086425;
+  font-size: 2.2em;
+  font-family: "Chakra Petch", sans-serif;
+}
+.projectContainer2 button {
+  position: relative;
+  order: 3;
+}
+.imgBox2 {
+  display: flex;
+  position: relative;
+  width: 45%;
+  height: auto;
+
+  order: 2;
+
+  border-radius: 6px;
+
+  filter: drop-shadow(0 0 0.4rem #16e561);
+}
+.imgBox2:hover {
+  filter: drop-shadow(0 0 0.9rem #16e561);
+}
+.textBox2 {
+  display: flex;
+  position: relative;
+  width: 80%;
+  padding: 0;
+  order: 2;
+
+  font-size: 1.2em;
+  color: rgb(192, 192, 192);
+  text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+  font-family: "Chakra Petch", sans-serif;
+}
