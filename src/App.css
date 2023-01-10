@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   cursor: url("../src/images/iconmonstr-cursor-1.png"), default;
+  scroll-behavior: smooth;
 }
 .App {
   background: rgb(20, 20, 20);

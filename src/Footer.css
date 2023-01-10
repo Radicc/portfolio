@@ -6,7 +6,7 @@
   align-items: center;
 
   width: 100%;
-  height: auto;
+  height: 100%;
   margin-top: 20dvh;
 }
 .Footer1 {
@@ -92,7 +92,7 @@
 .footerText {
   position: relative;
   display: flex;
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "Chakra Petch", sans-serif;
 
   color: antiquewhite;
@@ -108,7 +108,7 @@
 
   background-color: #16e561;
   width: 100%;
-  height: 8dvh;
+  height: 6dvh;
   margin: 0;
   padding: 0;
 }
@@ -129,8 +129,19 @@
   width: 4.5%;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
-.MailForm-Footer2 {
+.CvForm-Footer2 {
   display: flex;
+  position: relative;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 10dvh;
+}
+.CvForm-Footer2None {
+  display: none;
   position: relative;
   width: 100%;
   height: 150dvh;
@@ -291,7 +302,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 10dvh;
+  height: 6dvh;
   background-color: rgb(20, 20, 20);
 }
 .Footer3 p {

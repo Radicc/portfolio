@@ -1,12 +1,34 @@
-import React from "react";
+import { useState } from "react";
 import "./App.css";
 import "./Footer.css";
 import Mail from "../src/images/mail.png";
+import "./CvButton.scss";
 
 export default function Footer() {
+  const [show, setShow] = useState("CvForm-Footer2None");
+  const [ide, setIde] = useState("cvButt");
+
+  const showCv = (e) => {
+    if (show === "CvForm-Footer2None") {
+      setShow("CvForm-Footer2");
+      setTimeout(() => setIde("ide"), 2000);
+      // For Chrome, Firefox, IE and Opera
+    } else {
+      setShow("CvForm-Footer2None");
+      setIde("cvButt");
+    }
+  };
+
   return (
-    <div id="Contact" className="containerFooter">
-      <div className="MailForm-Footer2">
+    <div className="containerFooter">
+      <a id="cvButt" href={"#" + ide} onClick={showCv} className="Cvbutton">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        CV
+      </a>
+      <div id="ide" className={show}>
         <div className="WhitePaper">
           <div className="LeftPaper">
             <img
@@ -122,7 +144,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className="Footer2">
+      <div id="Contact" className="Footer2">
         <a>MAIL ME NOW!</a>
         <img src={Mail} />
       </div>

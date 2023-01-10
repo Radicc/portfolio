@@ -13,7 +13,6 @@ function App() {
     <div id="Home" className="App">
       <div className="header">
         <Nav />
-        <h3 className="Radicc">RADICC</h3>
       </div>
 
       <div className="body">

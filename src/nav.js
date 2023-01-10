@@ -7,6 +7,22 @@ export default function Nav() {
   const [Active, IsActive] = useState("off");
   const [Style, setStyle] = useState("pushMenuHidden");
   const [Burger, setBurger] = useState("");
+  const [Cv, setCv] = useState("off");
+
+  const [hover, setHover] = useState("Radicc");
+
+  const hoverChanger = () => {
+    if (hover === "Radicc") {
+    } else {
+    }
+  };
+
+  const handleClick2 = () => {
+    setCv("on");
+    IsActive("off");
+    setStyle("pushMenuHidden");
+    setBurger("");
+  };
 
   const handleClick = () => {
     if (Active === "off") {
@@ -37,7 +53,7 @@ export default function Nav() {
               </a>
             </li>
             <li>
-              <a onClick={handleClick} href="#Cv">
+              <a onClick={handleClick2} href="#cvButt">
                 CV
               </a>
             </li>
@@ -107,6 +123,7 @@ export default function Nav() {
         <span></span>
         <span></span>
       </div>
+      <h3 className="Radicc">{hover}</h3>
     </div>
   );
 }
