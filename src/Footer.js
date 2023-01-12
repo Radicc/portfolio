@@ -3,19 +3,27 @@ import "./App.css";
 import "./Footer.css";
 import Mail from "../src/images/mail.png";
 import "./CvButton.scss";
+import "./ContactSubmit.scss";
 
 export default function Footer() {
   const [show, setShow] = useState("CvForm-Footer2None");
   const [ide, setIde] = useState("cvButt");
+  const [contact, setContact] = useState("contactBackgroundNone");
 
   const showCv = (e) => {
     if (show === "CvForm-Footer2None") {
       setShow("CvForm-Footer2");
       setTimeout(() => setIde("ide"), 2000);
-      // For Chrome, Firefox, IE and Opera
     } else {
       setShow("CvForm-Footer2None");
       setIde("cvButt");
+    }
+  };
+  const showContact = (e) => {
+    if (contact === "contactBackgroundNone") {
+      setContact("contactBackgroundFlex");
+    } else {
+      setContact("contactBackgroundNone");
     }
   };
 
@@ -144,9 +152,51 @@ export default function Footer() {
         </a>
       </div>
 
-      <div id="Contact" className="Footer2">
-        <a>MAIL ME NOW!</a>
+      <div className="Footer2">
+        <a href="#Contact" onClick={showContact}>
+          MAIL ME NOW!
+        </a>
         <img src={Mail} />
+      </div>
+
+      <div id="Contact" className={contact}>
+        <div className="contactContainer">
+          <h1>CONTACT ME</h1>
+          <input
+            type="text"
+            id="name"
+            placeholder="Name"
+            spellCheck="false"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            spellCheck="false"
+            required
+          />
+          <input
+            type="text"
+            id="phone"
+            placeholder="Phone Number"
+            spellCheck="false"
+            required
+          />
+          <textarea
+            rows="4"
+            id="message"
+            placeholder="How can i help you?"
+            spellCheck="false"
+          ></textarea>
+          <a className="ContactSubmit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            SUBMIT
+          </a>
+        </div>
       </div>
 
       <div className="Footer3">

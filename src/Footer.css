@@ -100,39 +100,11 @@
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
 
-.Footer2 {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #16e561;
-  width: 100%;
-  height: 6dvh;
-  margin: 0;
-  padding: 0;
-}
-.Footer2 a {
-  position: relative;
-  cursor: pointer;
-  font-size: 2rem;
-  color: rgb(240, 240, 240);
-  font-family: "Chakra Petch", sans-serif;
-  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-}
-.Footer2 a:hover {
-  text-decoration: underline;
-}
-.Footer2 img {
-  position: relative;
-  cursor: pointer;
-  width: 4.5%;
-  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-}
 .CvForm-Footer2 {
   display: flex;
   position: relative;
   width: 100%;
+  height: 149.5dvh;
   background-color: rgb(20, 20, 20);
 
   align-items: center;
@@ -168,7 +140,7 @@
   width: 25%;
   height: auto;
   flex-direction: column;
-  background-color: #16e561;
+  background-color: #2d3755;
   border-radius: 10px 0 0 10px;
   gap: 3em;
 }
@@ -176,6 +148,7 @@
   position: relative;
   border-radius: 10px 0 0 0;
   height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Education {
@@ -187,10 +160,13 @@
   flex-basis: 1;
 }
 .Education h2 {
+  color: whitesmoke;
   font-size: 2.5em;
   text-shadow: 1.5px 1.5px #060810;
+  text-decoration: underline whitesmoke;
 }
 .Education p {
+  color: whitesmoke;
   font-size: 1.1em;
 
   width: 90%;
@@ -201,13 +177,16 @@
   flex-direction: column;
   align-items: center;
   flex-basis: 1;
+  text-decoration: underline whitesmoke;
 }
 .Reference h2 {
+  color: whitesmoke;
   font-size: 2.5em;
   text-shadow: 1.5px 1.5px #060810;
   margin-bottom: 2dvh;
 }
 .Reference p {
+  color: whitesmoke;
   font-size: 1.1em;
 }
 .CvContact {
@@ -219,23 +198,24 @@
   margin-top: 10dvh;
 }
 .CvContact h3 {
-  background-color: rgb(20, 20, 20);
+  background-color: black;
   font-size: 1.8em;
-  text-shadow: 1.2px 1.2px rgb(182, 182, 182);
-  color: rgb(192, 192, 192);
+  text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+  color: whitesmoke;
   width: 100%;
   text-align: center;
 }
 .CvContact p,
 a {
   align-self: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  color: whitesmoke;
 }
 .RightPaper {
   display: flex;
   position: relative;
   width: 75%;
-  top: 15dvh;
+  top: 10dvh;
   flex-basis: 1;
   border-radius: 0 10px 10px 0;
   flex-direction: column;
@@ -244,7 +224,8 @@ a {
 .NameTitul {
   display: flex;
   position: relative;
-  background-color: #585d63;
+  background-color: #2d3755;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
   height: 25dvh;
 
@@ -285,7 +266,8 @@ a {
 
   width: 70%;
   padding-left: 2dvh;
-  color: #000000;
+  color: black;
+  border-color: black;
   text-shadow: 1.5px 1.5px #000000;
 }
 .AboutMe p {
@@ -295,6 +277,114 @@ a {
   width: 70%;
   align-self: center;
 }
+.Footer2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #16e561;
+  width: 100%;
+  height: 6dvh;
+  margin: 0;
+  padding: 0;
+}
+.Footer2 a {
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  color: rgb(240, 240, 240);
+  font-family: "Chakra Petch", sans-serif;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+  text-decoration: none;
+}
+.Footer2 a:hover {
+  text-decoration: underline;
+}
+.Footer2 img {
+  position: relative;
+  cursor: pointer;
+  width: 4.5%;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
+
+.contactBackgroundFlex {
+  position: relative;
+  display: flex;
+  height: 85dvh;
+  width: 100%;
+  justify-content: center;
+}
+.contactBackgroundNone {
+  position: relative;
+  display: none;
+  height: 120dvh;
+  width: 100%;
+  justify-content: center;
+}
+.contactContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 90%;
+  gap: 5dvh;
+  font-size: 1.5em;
+}
+.contactContainer h1 {
+  position: relative;
+
+  font-size: 2.5em;
+  font-family: "Chakra Petch", sans-serif;
+
+  color: #16e561;
+  text-shadow: 2px 2px #086425;
+}
+.contactContainer input {
+  width: 30dvw;
+  height: 5dvh;
+  cursor: auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.8em;
+  padding-left: 1dvw;
+  border: 5px solid #16e561;
+  border-radius: 3px;
+  outline: none;
+  background-color: #001f0b;
+  color: #16e561;
+  text-shadow: 1.3px 1.3px #00000038;
+  text-decoration: none;
+}
+.contactContainer input::placeholder {
+  color: whitesmoke;
+  text-shadow: 1.3px 1.3px #00000038;
+  opacity: 0.7;
+}
+.contactContainer textarea {
+  width: 30dvw;
+  height: 20dvh;
+  cursor: auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.8em;
+  padding-left: 1dvw;
+  padding-top: 1dvw;
+  border: 5px solid #16e561;
+  border-radius: 3px;
+  background-color: #001f0b;
+  outline: none;
+
+  color: #16e561;
+  text-shadow: 1.3px 1.3px #00000038;
+  text-decoration: none;
+}
+.contactContainer textarea::placeholder {
+  color: whitesmoke;
+  text-shadow: 1.3px 1.3px #00000038;
+  opacity: 0.7;
+}
+
 .Footer3 {
   position: relative;
   display: flex;
