@@ -152,14 +152,14 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className="Footer2">
+      <div id="Contact" className="Footer2">
         <a href="#Contact" onClick={showContact}>
           MAIL ME NOW!
         </a>
         <img src={Mail} />
       </div>
 
-      <div id="Contact" className={contact}>
+      <div className={contact}>
         <div className="contactContainer">
           <h1>CONTACT ME</h1>
           <input
