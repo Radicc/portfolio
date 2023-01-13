@@ -162,7 +162,7 @@ export default function Footer(props) {
       </div>
 
       <form
-        action="https://formsubmit.co/your@email.com"
+        action="https://formsubmit.co/tomas.radic00@gmail.com"
         method="POST"
         className={props.Mailos}
       >
@@ -200,13 +200,13 @@ export default function Footer(props) {
             placeholder="How can i help you?"
             spellCheck="false"
           ></textarea>
-          <a className="ContactSubmit">
+          <button type="submit" className="ContactSubmit">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             SUBMIT
-          </a>
+          </button>
         </div>
       </form>
 
