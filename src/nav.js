@@ -3,25 +3,22 @@ import { useState } from "react";
 import "./nav.css";
 import "./BurgerMenu.css";
 
-export default function Nav() {
+export default function Nav(props) {
   const [Active, IsActive] = useState("off");
   const [Style, setStyle] = useState("pushMenuHidden");
   const [Burger, setBurger] = useState("");
-  const [Cv, setCv] = useState("off");
 
-  const [hover, setHover] = useState("Radicc");
-
-  const hoverChanger = () => {
-    if (hover === "Radicc") {
-    } else {
-    }
-  };
-
-  const handleClick2 = () => {
-    setCv("on");
+  const handleClick3 = () => {
     IsActive("off");
     setStyle("pushMenuHidden");
     setBurger("");
+    props.setCV("CvForm-Footer2");
+  };
+  const handleClick2 = () => {
+    IsActive("off");
+    setStyle("pushMenuHidden");
+    setBurger("");
+    props.setMail("contactBackgroundFlex");
   };
 
   const handleClick = () => {
@@ -53,12 +50,12 @@ export default function Nav() {
               </a>
             </li>
             <li>
-              <a onClick={handleClick2} href="#cvButt">
+              <a onClick={handleClick3} href="#cvButt">
                 CV
               </a>
             </li>
             <li>
-              <a onClick={handleClick} href="#Contact">
+              <a onClick={handleClick2} href="#Contact">
                 Contact
               </a>
             </li>
@@ -123,7 +120,9 @@ export default function Nav() {
         <span></span>
         <span></span>
       </div>
-      <h3 className="Radicc">{hover}</h3>
+      <a href="#Home">
+        <h3 className="Radicc">RADICC</h3>
+      </a>
     </div>
   );
 }

@@ -103,8 +103,6 @@
 .CvForm-Footer2 {
   display: flex;
   position: relative;
-  width: 100%;
-  height: 149.5dvh;
   background-color: rgb(20, 20, 20);
 
   align-items: center;

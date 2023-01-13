@@ -47,6 +47,7 @@
   padding: 0;
   font-family: "Chakra Petch", sans-serif;
   text-shadow: 2px 2px #060810;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
 .nav {
   position: relative;

@@ -5,14 +5,17 @@ import Nav from "./nav";
 import Tooler from "./tooler";
 import MyProjects from "./myProjects";
 import Footer from "./Footer";
-
 import Programmer from "./images/programmer2.png";
+import { useState } from "react";
 
 function App() {
+  const [CV, setCV] = useState("CvForm-Footer2None");
+  const [Mailos, setMail] = useState("contactBackgroundNone");
+
   return (
     <div id="Home" className="App">
       <div className="header">
-        <Nav />
+        <Nav setCV={setCV} setMail={setMail} />
       </div>
 
       <div className="body">
@@ -39,7 +42,7 @@ function App() {
       <Tooler />
       <MyProjects />
 
-      <Footer />
+      <Footer CV={CV} Mailos={Mailos} setCV={setCV} setMail={setMail} />
     </div>
   );
 }

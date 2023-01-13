@@ -5,25 +5,27 @@ import Mail from "../src/images/mail.png";
 import "./CvButton.scss";
 import "./ContactSubmit.scss";
 
-export default function Footer() {
-  const [show, setShow] = useState("CvForm-Footer2None");
+export default function Footer(props) {
+  //const [show, setShow] = useState("CvForm-Footer2None");
   const [ide, setIde] = useState("cvButt");
-  const [contact, setContact] = useState("contactBackgroundNone");
 
-  const showCv = (e) => {
-    if (show === "CvForm-Footer2None") {
-      setShow("CvForm-Footer2");
+  //const [contact, setContact] = useState("contactBackgroundNone");
+
+  const showCv = () => {
+    if (props.CV === "CvForm-Footer2None") {
+      props.setCV("CvForm-Footer2");
       setTimeout(() => setIde("ide"), 2000);
     } else {
-      setShow("CvForm-Footer2None");
+      props.setCV("CvForm-Footer2None");
       setIde("cvButt");
     }
   };
-  const showContact = (e) => {
-    if (contact === "contactBackgroundNone") {
-      setContact("contactBackgroundFlex");
+
+  const showContact = () => {
+    if (props.Mailos === "contactBackgroundNone") {
+      props.setMail("contactBackgroundFlex");
     } else {
-      setContact("contactBackgroundNone");
+      props.setMail("contactBackgroundNone");
     }
   };
 
@@ -36,7 +38,7 @@ export default function Footer() {
         <span></span>
         CV
       </a>
-      <div id="ide" className={show}>
+      <div id="ide" className={props.CV}>
         <div className="WhitePaper">
           <div className="LeftPaper">
             <img
@@ -159,12 +161,18 @@ export default function Footer() {
         <img src={Mail} />
       </div>
 
-      <div className={contact}>
+      <form
+        action="https://formsubmit.co/your@email.com"
+        method="POST"
+        className={props.Mailos}
+      >
         <div className="contactContainer">
           <h1>CONTACT ME</h1>
+          <input type="hidden" name="_subject" value="New submission!"></input>
           <input
             type="text"
             id="name"
+            name="name"
             placeholder="Name"
             spellCheck="false"
             required
@@ -172,6 +180,7 @@ export default function Footer() {
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="Email"
             spellCheck="false"
             required
@@ -179,6 +188,7 @@ export default function Footer() {
           <input
             type="text"
             id="phone"
+            name="phone"
             placeholder="Phone Number"
             spellCheck="false"
             required
@@ -186,6 +196,7 @@ export default function Footer() {
           <textarea
             rows="4"
             id="message"
+            name="message"
             placeholder="How can i help you?"
             spellCheck="false"
           ></textarea>
@@ -197,7 +208,7 @@ export default function Footer() {
             SUBMIT
           </a>
         </div>
-      </div>
+      </form>
 
       <div className="Footer3">
         <p>© Copyright 2022, Tomas Radic All Rights Reserved.</p>
