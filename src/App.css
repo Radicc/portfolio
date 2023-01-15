@@ -95,6 +95,9 @@
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
   z-index: 0;
 }
+.toolsLogo2 {
+  display: none;
+}
 
 .myProjectsBody {
   display: flex;
@@ -235,4 +238,169 @@
   color: rgb(192, 192, 192);
   text-shadow: 1.5px 1.5px rgb(0, 0, 0);
   font-family: "Chakra Petch", sans-serif;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header {
+    width: 100%;
+    height: 10%;
+  }
+
+  .Radicc {
+    position: absolute;
+    display: flex;
+    left: 6%;
+    top: 15%;
+
+    color: #060810;
+    font-size: 2.5em;
+    padding: 0;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 2px 2px #060810;
+    cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+  }
+  .nav {
+    position: relative;
+    padding: 1.1% 0 0 0;
+    display: flex;
+    color: #060810;
+  }
+  .nav li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .nav li a {
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  .nav li a:hover {
+    color: black;
+  }
+
+  .toolsBar {
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    height: 15dvh;
+    background-color: #0fe955;
+    justify-content: center;
+    box-shadow: 0px 3px #086425;
+    margin-top: 0dvh;
+    gap: 0%;
+    flex-direction: column;
+  }
+  .toolsLogo {
+    display: none;
+  }
+  .toolsLogo2 {
+    display: flex;
+    position: relative;
+    aspect-ratio: 3/4;
+    width: 13%;
+    object-fit: contain;
+
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+  }
+  .div1 {
+    display: flex;
+    position: relative;
+    height: 50%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+  }
+  .div2 {
+    display: flex;
+    position: relative;
+    height: 50%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .myProjectsBody {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    gap: 10dvh;
+    background-color: rgb(20, 20, 20);
+  }
+  .projectsText {
+    position: relative;
+
+    font-size: 4em;
+    font-family: "Chakra Petch", sans-serif;
+
+    margin-top: 5dvh;
+    color: #16e561;
+    text-shadow: 2px 2px #086425;
+  }
+  .projectBox1 {
+    width: 100%;
+    height: 35dvh;
+    flex-direction: column;
+    gap: 10%;
+  }
+  .projectContainer {
+    order: 2;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 10%;
+  }
+  .projectContainer h2 {
+    display: none;
+  }
+  .projectContainer button {
+    position: relative;
+  }
+  .imgBox1 {
+    width: 100%;
+    height: auto;
+    order: 1;
+    border-radius: 0px;
+  }
+
+  .textBox1 {
+    display: none;
+  }
+
+  .projectBox2 {
+    width: 100%;
+    height: 35dvh;
+    gap: 10%;
+    flex-direction: column;
+  }
+  .projectContainer2 {
+    order: 2;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 10%;
+  }
+  .projectContainer2 h2 {
+    display: none;
+  }
+  .projectContainer2 button {
+    position: relative;
+  }
+  .imgBox2 {
+    width: 100%;
+    height: auto;
+    order: 1;
+    border-radius: 0px;
+  }
+  .textBox2 {
+    display: none;
+  }
 }

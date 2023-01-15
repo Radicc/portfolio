@@ -26,7 +26,7 @@ function App() {
             </div>
             <h1 className="tomRadText">A Frontend developer</h1>
             <h3 className="tomRadUnderText">
-              I am a selfthouhgt student of frontend developing trying to change
+              I am a self-taught student of frontend developing trying to change
               profession. Experienced in HTML,CSS and JavaScript specializing in
               ReactJS library. Implementing CSS-extansion SASS and
               JavaScript-syntactical superset TypeScript.

@@ -78,27 +78,27 @@ export default function Footer(props) {
               <p>SELFTHOUGHT FRONTEND DEVELOPER</p>
             </div>
             <div className="AboutMe">
-              <h3>ABOUT ME</h3>
+              <h3 className="titel1">ABOUT ME</h3>
               <p>
-                I am a selfthouhgt student of frontend developing trying to
+                I am a self-taught student of frontend developing trying to
                 change profession. Experienced in HTML,CSS and JavaScript
                 specializing in ReactJS library. Implementing CSS-extansion SASS
                 and JavaScript-syntactical superset TypeScript.
               </p>
             </div>
             <div className="AboutMe">
-              <h3>WORK EXPERIENCE</h3>
+              <h3 className="titel2">WORK EXPERIENCE</h3>
               <p>
-                I am a selfthouhgt student of frontend developing trying to
+                I am a self-taught student of frontend developing trying to
                 change profession. Experienced in HTML,CSS and JavaScript
                 specializing in ReactJS library. Implementing CSS-extansion SASS
                 and JavaScript-syntactical superset TypeScript.
               </p>
             </div>
             <div className="AboutMe">
-              <h3>SOFTWARE SKILL</h3>
+              <h3 className="titel3">SOFTWARE SKILL</h3>
               <p>
-                I am a selfthouhgt student of frontend developing trying to
+                I am a self-taught student of frontend developing trying to
                 change profession. Experienced in HTML,CSS and JavaScript
                 specializing in ReactJS library. Implementing CSS-extansion SASS
                 and JavaScript-syntactical superset TypeScript.
