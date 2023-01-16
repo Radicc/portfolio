@@ -48,12 +48,14 @@
   position: relative;
   top: 10%;
   left: 50%;
+  width: 100%;
+  height: 75%;
 }
 .ulNav li {
   position: relative;
   list-style-type: none;
   text-decoration: none;
-  font-size: 5em;
+  font-size: 5rem;
 }
 .ulNav li a {
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
@@ -62,6 +64,7 @@
   text-shadow: 2px 2px #086425;
   font-family: "Chakra Petch", sans-serif;
   text-decoration: none;
+  font-size: 5rem;
 }
 .ulNav li:hover {
   list-style-type: "👉";
@@ -81,7 +84,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  right: auto;
   padding: 0;
   margin: 0;
 
@@ -110,7 +112,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  right: auto;
+
   padding: 0;
   margin: 0;
 
@@ -131,7 +133,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  right: auto;
+
   padding: 0;
   margin: 0;
 
@@ -153,7 +155,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  right: auto;
   padding: 0;
   margin: 0;
 
@@ -212,24 +213,23 @@
     height: 50%;
     background: rgb(46, 46, 46);
     order: 1;
-    justify-content: center;
-    align-items: center;
   }
   .greenBox {
     display: none;
   }
   .ulNav {
     position: relative;
-    top: 0%;
-    left: 0%;
+    width: 100%;
+    height: 50%;
+    top: 10%;
+    left: 0;
   }
   .ulNav li {
     position: relative;
+    display: flex;
     list-style-type: none;
     text-decoration: none;
-    font-size: clamp(2.5rem, 6vh, 3.5rem);
-
-    text-align: center;
+    justify-content: center;
   }
   .ulNav li a {
     cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
@@ -238,6 +238,7 @@
     text-shadow: 2px 2px #086425;
     font-family: "Chakra Petch", sans-serif;
     text-decoration: none;
+    font-size: clamp(2.5rem, 7vh, 4rem);
   }
   .containerSocial {
     background-color: rgb(46, 46, 46);
@@ -245,45 +246,39 @@
     position: relative;
     flex-direction: column;
     order: 2;
-    min-width: 100%;
-    max-height: 50%;
+    width: 100%;
+    height: 50%;
   }
   .social1 {
+    position: relative;
     flex-direction: row;
     width: 100%;
     height: 25%;
-    gap: clamp(5.8rem, 1rem + 1vw, 8rem);
   }
   .social2 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-
-    gap: clamp(3.5rem, 1rem + 1vw, 8rem);
   }
   .social3 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-
-    gap: clamp(5.5rem, 1rem + 1vw, 8rem);
   }
   .social4 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-
-    gap: clamp(1rem, 1rem + 1vw, 8rem);
   }
   .imgSocial {
     position: relative;
     width: 64px;
     height: 64px;
-    padding-right: 0px;
-    left: 0%;
+    align-self: right;
     order: 2;
   }
   .socialText {
+    width: 50%;
     position: relative;
     display: flex;
     font-size: 2.5em;

@@ -343,7 +343,7 @@ a {
 .contactBackgroundFlex {
   position: relative;
   display: flex;
-  height: 85dvh;
+  min-height: 85dvh;
   width: 100%;
   justify-content: center;
 }
@@ -362,8 +362,9 @@ a {
   align-items: center;
   width: 40%;
   height: 90%;
-  gap: 5dvh;
+  gap: 4.5dvh;
   font-size: 1.5em;
+  padding-top: 5dvh;
 }
 .contactContainer h1 {
   position: relative;
@@ -716,14 +717,7 @@ a {
   .contactBackgroundFlex {
     position: relative;
     display: flex;
-    min-height: 85dvh;
-    width: 100%;
-    justify-content: center;
-  }
-  .contactBackgroundNone {
-    position: relative;
-    display: none;
-    height: 120dvh;
+    height: 72dvh;
     width: 100%;
     justify-content: center;
   }
@@ -734,9 +728,10 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 90%;
+    height: 100%;
     gap: 5dvh;
     font-size: 1.5em;
+    padding-top: 0;
   }
   .contactContainer h1 {
     position: relative;

@@ -1,7 +1,6 @@
 .ContactSubmit {
-  position: absolute;
+  position: relative;
   display: flex;
-  bottom: clamp(-10rem, -1rem + 10vw, -3.6rem);
   padding: 1dvh 3dvh;
   border-radius: 4px;
   color: #0fe955;
