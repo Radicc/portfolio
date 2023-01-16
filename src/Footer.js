@@ -47,20 +47,19 @@ export default function Footer(props) {
             ></img>
             <div className="Education">
               <h2>Education</h2>
-              <p>
-                High school eletronical enginering Karola Adlera / Bratislava /
-                Slovakia / 2016-2020
-              </p>
+              <p>Secondary School of Electrical Engineering</p>
+              <p> Bratislava / Slovakia </p>
+              <p> 2016-2020</p>
             </div>
             <div className="Reference">
               <h2>Reference</h2>
-              <p>2021 - 2022</p>
-              <p>Elektrikár</p>
               <p>GAOL Energy Slovakia, s.r.o.</p>
+              <p>Elektrikár</p>
+              <p>2021 - 2022</p>
             </div>
             <div className="CvContact">
               <h3>Phone</h3>
-              <p>+421 000 000 0000</p>
+              <p>+421 000 000 000</p>
 
               <h3>Email</h3>
               <p>tomas.radic00@gmail.com</p>
@@ -89,20 +88,13 @@ export default function Footer(props) {
             <div className="AboutMe">
               <h3 className="titel2">WORK EXPERIENCE</h3>
               <p>
-                I am a self-taught student of frontend developing trying to
-                change profession. Experienced in HTML,CSS and JavaScript
-                specializing in ReactJS library. Implementing CSS-extansion SASS
-                and JavaScript-syntactical superset TypeScript.
+                My journey is recorded on this website. Each project is designed
+                so that I can get a job as a Frontend developer.
               </p>
             </div>
             <div className="AboutMe">
               <h3 className="titel3">SOFTWARE SKILL</h3>
-              <p>
-                I am a self-taught student of frontend developing trying to
-                change profession. Experienced in HTML,CSS and JavaScript
-                specializing in ReactJS library. Implementing CSS-extansion SASS
-                and JavaScript-syntactical superset TypeScript.
-              </p>
+              <p>HTML, CSS, SASS, JAVASCRIPT, TYPESCRIPT, REACT.JS, GIT</p>
             </div>
           </div>
         </div>

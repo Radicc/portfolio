@@ -126,7 +126,7 @@
   display: flex;
   position: relative;
   width: 70%;
-  height: 90%;
+  min-height: 90%;
   background-color: #c5cbd2;
 
   border-radius: 10px;
@@ -157,6 +157,7 @@
   align-items: center;
   gap: 1em;
   flex-basis: 1;
+  text-align: center;
 }
 .Education h2 {
   color: whitesmoke;
@@ -168,7 +169,7 @@
   color: whitesmoke;
   font-size: 1.1em;
 
-  width: 90%;
+  width: 80%;
 }
 .Reference {
   display: flex;
@@ -176,13 +177,14 @@
   flex-direction: column;
   align-items: center;
   flex-basis: 1;
-  text-decoration: underline whitesmoke;
+  gap: 0.5em;
 }
 .Reference h2 {
   color: whitesmoke;
   font-size: 2.5em;
   text-shadow: 1.5px 1.5px #060810;
-  margin-bottom: 2dvh;
+  margin-bottom: 0.5dvh;
+  text-decoration: underline whitesmoke;
 }
 .Reference p {
   color: whitesmoke;
@@ -195,6 +197,7 @@
   align-items: center;
   gap: 1em;
   margin-top: 10dvh;
+  margin-bottom: 1.5dvh;
 }
 .CvContact h3 {
   background-color: black;
@@ -207,7 +210,7 @@
 .CvContact p,
 a {
   align-self: center;
-  font-size: 1.2em;
+  font-size: 1.1rem;
   color: whitesmoke;
 }
 .RightPaper {
@@ -435,34 +438,34 @@ a {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Footer1 {
     width: auto;
-    height: 74dvh;
+    min-height: 74dvh;
     flex-direction: column;
   }
 
   .socialFooterContainer1 {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     justify-content: center;
     gap: 44%;
   }
 
   .socialFooterContainer2 {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     justify-content: center;
     gap: 35%;
   }
 
   .socialFooterContainer3 {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     justify-content: center;
     gap: 42%;
   }
 
   .socialFooterContainer4 {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     justify-content: center;
     gap: 29%;
   }
@@ -588,7 +591,7 @@ a {
   .CvContact p,
   a {
     align-self: center;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     color: whitesmoke;
   }
   .RightPaper {
@@ -694,7 +697,7 @@ a {
   }
   .Footer2 {
     width: 100%;
-    height: 10dvh;
+    min-height: 10dvh;
     gap: 15%;
   }
   .Footer2 a {
@@ -713,7 +716,7 @@ a {
   .contactBackgroundFlex {
     position: relative;
     display: flex;
-    height: 85dvh;
+    min-height: 85dvh;
     width: 100%;
     justify-content: center;
   }
@@ -731,14 +734,14 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90%;
+    min-height: 90%;
     gap: 5dvh;
     font-size: 1.5em;
   }
   .contactContainer h1 {
     position: relative;
 
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: "Chakra Petch", sans-serif;
 
     color: #16e561;
@@ -746,12 +749,12 @@ a {
   }
   .contactContainer input {
     width: 70%;
-    height: 5dvh;
+    min-height: 5dvh;
     cursor: auto;
     font-family: "Chakra Petch", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-left: 1dvw;
-    border: 5px solid #16e561;
+    border: 3px solid #16e561;
     border-radius: 3px;
     outline: none;
     background-color: #001f0b;
@@ -766,13 +769,13 @@ a {
   }
   .contactContainer textarea {
     width: 70%;
-    height: 20dvh;
+    min-height: 20dvh;
     cursor: auto;
     font-family: "Chakra Petch", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-left: 1dvw;
     padding-top: 2dvw;
-    border: 5px solid #16e561;
+    border: 3px solid #16e561;
     border-radius: 3px;
     background-color: #001f0b;
     outline: none;
@@ -794,7 +797,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 6dvh;
+    min-height: 6dvh;
     background-color: rgb(20, 20, 20);
   }
   .Footer3 p {

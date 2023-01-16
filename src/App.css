@@ -67,7 +67,7 @@
   position: relative;
   display: flex;
   width: 100%;
-  height: 120px;
+  max-height: 120px;
   background-color: #0fe955;
 
   margin: 0;
@@ -82,7 +82,7 @@
 
   display: flex;
   position: relative;
-  width: 15%;
+  width: 11%;
   aspect-ratio: 3/2;
   object-fit: contain;
 
@@ -235,7 +235,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header {
     width: 100%;
-    height: 10%;
+    min-height: 10%;
   }
 
   .Radicc {
@@ -276,7 +276,7 @@
     display: flex;
 
     width: 100%;
-    height: 15dvh;
+    min-height: 20dvh;
     background-color: #0fe955;
     justify-content: center;
     box-shadow: 0px 3px #086425;
@@ -299,18 +299,18 @@
   .div1 {
     display: flex;
     position: relative;
-    height: 50%;
+    max-height: 50%;
     flex-direction: row;
     justify-content: center;
-    gap: 10%;
+    gap: 12%;
   }
   .div2 {
     display: flex;
     position: relative;
-    height: 50%;
+    max-height: 50%;
     flex-direction: row;
     justify-content: center;
-    gap: 10%;
+    gap: 12%;
   }
 
   .myProjectsBody {
@@ -322,7 +322,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     gap: 10dvh;
     background-color: rgb(20, 20, 20);
   }
@@ -338,14 +338,15 @@
   }
   .projectBox1 {
     width: 100%;
-    height: 35dvh;
+    max-height: 35dvh;
     flex-direction: column;
     gap: 10%;
+    align-items: center;
   }
   .projectContainer {
     order: 2;
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     flex-direction: column;
     gap: 10%;
   }
@@ -356,7 +357,7 @@
     position: relative;
   }
   .imgBox1 {
-    width: 100%;
+    min-width: 90%;
     height: auto;
     order: 1;
     border-radius: 0px;
@@ -368,14 +369,14 @@
 
   .projectBox2 {
     width: 100%;
-    height: 35dvh;
-    gap: 10%;
+    max-height: 35dvh;
     flex-direction: column;
+    align-items: center;
   }
   .projectContainer2 {
     order: 2;
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     flex-direction: column;
     gap: 10%;
   }
@@ -386,7 +387,7 @@
     position: relative;
   }
   .imgBox2 {
-    width: 100%;
+    min-width: 90%;
     height: auto;
     order: 1;
     border-radius: 0px;
