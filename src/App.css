@@ -49,12 +49,6 @@
   text-shadow: 2px 2px #060810;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
-.nav {
-  position: relative;
-  padding: 1.1% 0 0 0;
-  display: flex;
-  color: #060810;
-}
 .nav li {
   list-style-type: none;
   text-decoration: none;
@@ -251,7 +245,7 @@
     top: 15%;
 
     color: #060810;
-    font-size: 2.5em;
+    font-size: clamp(2rem, 6vh, 3rem);
     padding: 0;
     font-family: "Chakra Petch", sans-serif;
     text-shadow: 2px 2px #060810;

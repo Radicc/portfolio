@@ -123,8 +123,8 @@
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 
-    right: 7%;
-    top: 22%;
+    right: 5%;
+    top: 25%;
     cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
     z-index: 4;
   }
@@ -132,7 +132,7 @@
   #nav-icon2 span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 6px;
     width: 50%;
     background: rgb(20, 20, 20);
     opacity: 1;
@@ -148,12 +148,12 @@
   }
 
   #nav-icon2 span:nth-child(even) {
-    left: 50%;
+    left: 35%;
     border-radius: 0 9px 9px 0;
   }
 
   #nav-icon2 span:nth-child(odd) {
-    left: 0px;
+    left: 10px;
     border-radius: 9px 0 0 9px;
   }
 
@@ -164,12 +164,12 @@
 
   #nav-icon2 span:nth-child(3),
   #nav-icon2 span:nth-child(4) {
-    top: 18px;
+    top: 13px;
   }
 
   #nav-icon2 span:nth-child(5),
   #nav-icon2 span:nth-child(6) {
-    top: 36px;
+    top: 27px;
   }
 
   #nav-icon2.open span:nth-child(1),

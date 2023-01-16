@@ -226,7 +226,7 @@ a {
   background-color: #2d3755;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
-  height: 25dvh;
+  min-height: 25dvh;
 
   flex-direction: column;
   justify-content: center;
@@ -431,6 +431,7 @@ a {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Footer1 {
     width: auto;
@@ -606,7 +607,7 @@ a {
     background-color: #2d3755;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
-    height: 25dvh;
+    min-height: 25dvh;
     top: 5dvh;
 
     flex-direction: column;

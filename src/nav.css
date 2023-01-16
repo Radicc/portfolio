@@ -2,7 +2,7 @@
   position: fixed;
   display: flex;
   width: 100%;
-  height: 1000px;
+  min-height: 100dvh;
 
   top: 0;
   left: 0;
@@ -198,7 +198,7 @@
     position: fixed;
     display: flex;
     width: 100%;
-    height: 90dvh;
+    min-height: 90dvh;
     flex-direction: column;
 
     top: 10dvh;
@@ -227,7 +227,7 @@
     position: relative;
     list-style-type: none;
     text-decoration: none;
-    font-size: 3.5rem;
+    font-size: clamp(2.5rem, 6vh, 3.5rem);
 
     text-align: center;
   }
@@ -245,32 +245,35 @@
     position: relative;
     flex-direction: column;
     order: 2;
-    width: 100%;
-    height: 50%;
+    min-width: 100%;
+    max-height: 50%;
   }
   .social1 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-    gap: 30%;
+    gap: clamp(5.8rem, 1rem + 1vw, 8rem);
   }
   .social2 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-    gap: 21%;
+
+    gap: clamp(3.5rem, 1rem + 1vw, 8rem);
   }
   .social3 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-    gap: 29%;
+
+    gap: clamp(5.5rem, 1rem + 1vw, 8rem);
   }
   .social4 {
     flex-direction: row;
     width: 100%;
     height: 25%;
-    gap: 12%;
+
+    gap: clamp(1rem, 1rem + 1vw, 8rem);
   }
   .imgSocial {
     position: relative;
@@ -289,7 +292,5 @@
     left: 5%;
     color: antiquewhite;
     order: 1;
-
-    /* Styles */
   }
 }
