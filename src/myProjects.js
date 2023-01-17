@@ -3,13 +3,14 @@ import "./App.css";
 import "./Cv.scss";
 import Project from "./project.jpg";
 import Project2 from "./project2.jpg";
+import ProjectFuture from "./ProjectNow.jpg";
 
 export default function MyProjects() {
   return (
     <div id="Projects" className="myProjectsBody">
       <h1 className="projectsText">Projects</h1>
       <div className="projectBox1">
-        <img className="imgBox1" src={Project} alt="error"></img>
+        <img className="imgBox1" src={ProjectFuture} alt="error"></img>
         <div className="projectContainer">
           <h2>MY PORTFOLIO</h2>
           <p className="textBox1">
@@ -34,7 +35,7 @@ export default function MyProjects() {
       </div>
 
       <div className="projectBox2">
-        <img className="imgBox2" src={Project2}></img>
+        <img className="imgBox2" src={ProjectFuture}></img>
         <div className="projectContainer2">
           <h2>ESHOP</h2>
           <p className="textBox2">
@@ -60,7 +61,7 @@ export default function MyProjects() {
       </div>
 
       <div className="projectBox1">
-        <img className="imgBox1" src={Project}></img>
+        <img className="imgBox1" src={ProjectFuture}></img>
         <div className="projectContainer">
           <h2>ESHOP</h2>
           <p className="textBox1">

@@ -6,7 +6,7 @@ import Image2 from "../src/images/photo2.jpg";
 
 export default function Slider() {
   //const [Number, setNumber] = useState(0);
-  const Images = [Image1, Image2];
+  /*const Images = [Image1, Image2];
 
   const [Count, setCount] = useState(0);
 
@@ -22,10 +22,12 @@ export default function Slider() {
       setCount(0);
     }
   };
-
+*/
   return (
     <div className="divSlider">
-      <img className="photo1" src={Images[Count]} alt="programmingPhoto1" />
+      <div className="opacityBlock"></div>
+      <img className="photo1" src={Image1} alt="programmingPhoto1" />
+      <img className="photo2" src={Image2} alt="programmingPhoto1" />
     </div>
   );
 }

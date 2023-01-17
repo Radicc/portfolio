@@ -127,29 +127,51 @@
   height: 100%;
   z-index: -1;
 }
+.opacityBlock {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+}
 .photo1 {
   display: flex;
   position: absolute;
   width: 100%;
   height: auto;
-  opacity: 0;
-  animation: ani 8s ease forwards;
+  opacity: 1;
+  animation: ani 16s ease forwards;
   animation-iteration-count: infinite;
+  z-index: -2;
+}
+.photo2 {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  z-index: -3;
 }
 
 @keyframes ani {
   0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.3;
+    opacity: 1;
   }
 
-  92% {
-    opacity: 0.3;
+  40% {
+    opacity: 1;
   }
-  100% {
+  50% {
     opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
   }
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -228,9 +250,62 @@
   }
 
   .divSlider {
-    display: none;
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .opacityBlock {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
   }
   .photo1 {
-    display: none;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    animation: ani 16s ease forwards;
+    animation-iteration-count: infinite;
+    object-fit: cover;
+    object-position: 25%;
+    z-index: -2;
+  }
+  .photo2 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    object-fit: cover;
+    object-position: 25%;
+    z-index: -3;
+  }
+  @keyframes ani {
+    0% {
+      opacity: 1;
+    }
+
+    40% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+
+    90% {
+      opacity: 0;
+    }
+    99% {
+      opacity: 1;
+    }
   }
 }
