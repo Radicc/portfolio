@@ -94,8 +94,6 @@
   position: relative;
   display: flex;
   font-size: 2.5em;
-  font-family: "Chakra Petch", sans-serif;
-
   color: antiquewhite;
   left: 4%;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
@@ -105,7 +103,6 @@
   display: flex;
   position: relative;
   background-color: rgb(20, 20, 20);
-
   align-items: center;
   justify-content: center;
   margin-top: 0;
@@ -117,7 +114,6 @@
   width: 100%;
   height: 150dvh;
   background-color: rgb(20, 20, 20);
-
   align-items: center;
   justify-content: center;
   margin-bottom: 10dvh;
@@ -128,10 +124,8 @@
   width: 70%;
   min-height: 90%;
   background-color: #c5cbd2;
-
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
-  font-family: "Chakra Petch", sans-serif;
 }
 .LeftPaper {
   display: flex;
@@ -314,7 +308,6 @@ a {
   position: relative;
   justify-content: center;
   align-items: center;
-
   background-color: #16e561;
   width: 100%;
   height: 6dvh;
@@ -326,7 +319,6 @@ a {
   cursor: pointer;
   font-size: 2rem;
   color: rgb(240, 240, 240);
-  font-family: "Chakra Petch", sans-serif;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
   text-decoration: none;
 }
@@ -368,10 +360,7 @@ a {
 }
 .contactContainer h1 {
   position: relative;
-
   font-size: 2.5em;
-  font-family: "Chakra Petch", sans-serif;
-
   color: #16e561;
   text-shadow: 2px 2px #086425;
 }
@@ -379,7 +368,6 @@ a {
   width: 30dvw;
   height: 5dvh;
   cursor: auto;
-  font-family: "Chakra Petch", sans-serif;
   font-size: 0.8em;
   padding-left: 1dvw;
   border: 5px solid #16e561;
@@ -399,7 +387,6 @@ a {
   width: 30dvw;
   height: 20dvh;
   cursor: auto;
-  font-family: "Chakra Petch", sans-serif;
   font-size: 0.8em;
   padding-left: 1dvw;
   padding-top: 1dvw;
@@ -407,7 +394,6 @@ a {
   border-radius: 3px;
   background-color: #001f0b;
   outline: none;
-
   color: #16e561;
   text-shadow: 1.3px 1.3px #00000038;
   text-decoration: none;
@@ -430,7 +416,6 @@ a {
 }
 .Footer3 p {
   color: #16e561;
-  font-family: "Chakra Petch", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -509,11 +494,8 @@ a {
     position: relative;
     flex-direction: column;
     width: 100%;
-
     background-color: #c5cbd2;
-
     border-radius: 0;
-    font-family: "Chakra Petch", sans-serif;
   }
   .LeftPaper {
     display: flex;
@@ -522,7 +504,6 @@ a {
     top: 0dvh;
     order: 2;
     margin-top: 5dvh;
-
     flex-direction: column;
     background-color: #2d3755;
     border-radius: 0;
@@ -613,7 +594,6 @@ a {
     width: 100%;
     min-height: 25dvh;
     top: 5dvh;
-
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -648,7 +628,6 @@ a {
     display: flex;
     font-size: 2.5em;
     left: 0dvh;
-
     border: solid;
     border-width: 0 0 0.5dvh 0;
 
@@ -664,10 +643,8 @@ a {
     display: flex;
     font-size: 2.5em;
     left: 0dvh;
-
     border: solid;
     border-width: 0 0 0.5dvh 0;
-
     width: 75%;
     padding-left: 0dvh;
     color: black;
@@ -679,10 +656,8 @@ a {
     display: flex;
     font-size: 2.5em;
     left: 0dvh;
-
     border: solid;
     border-width: 0 0 0.5dvh 0;
-
     width: 75%;
     padding-left: 0dvh;
     color: black;
@@ -713,7 +688,6 @@ a {
     display: none;
     width: 18%;
   }
-
   .contactBackgroundFlex {
     position: relative;
     display: flex;
@@ -735,10 +709,7 @@ a {
   }
   .contactContainer h1 {
     position: relative;
-
     font-size: 2.2em;
-    font-family: "Chakra Petch", sans-serif;
-
     color: #16e561;
     text-shadow: 2px 2px #086425;
   }
@@ -746,7 +717,6 @@ a {
     width: 70%;
     min-height: 5dvh;
     cursor: auto;
-    font-family: "Chakra Petch", sans-serif;
     font-size: 0.7em;
     padding-left: 1dvw;
     border: 3px solid #16e561;
@@ -766,7 +736,6 @@ a {
     width: 70%;
     min-height: 20dvh;
     cursor: auto;
-    font-family: "Chakra Petch", sans-serif;
     font-size: 0.7em;
     padding-left: 1dvw;
     padding-top: 2dvw;
@@ -788,7 +757,6 @@ a {
   .Footer3 {
     position: relative;
     display: flex;
-
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -797,7 +765,6 @@ a {
   }
   .Footer3 p {
     color: #16e561;
-    font-family: "Chakra Petch", sans-serif;
     font-size: 0.8rem;
   }
 }

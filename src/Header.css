@@ -1,3 +1,40 @@
+.header {
+  position: fixed;
+  display: flex;
+  height: 10%;
+  width: 100%;
+
+  background-color: #10e956;
+  box-shadow: 0px 3px #086425;
+
+  z-index: 1;
+  animation: headerAnimaiton 1s ease forwards;
+  transform: translateY(-105%);
+}
+@keyframes headerAnimaiton {
+  0% {
+    transform: translateY(-105%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+.headerContainer {
+  width: 100%;
+}
+.Radicc {
+  position: relative;
+  top: 15%;
+  left: 5%;
+
+  font-size: 3rem;
+  color: #060810;
+  text-shadow: 2px 2px #060810;
+  text-decoration: none;
+
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+}
 .pushMenuDown {
   position: fixed;
   display: flex;
@@ -14,25 +51,12 @@
 }
 
 .pushMenuHidden {
-  position: fixed;
   display: none;
-  width: 100%;
-  height: 1000px;
-  opacity: 0;
-
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  background: rgb(6, 88, 68);
-  z-index: 3;
 }
 
 .containerNav {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: block;
   width: 50%;
   height: 100%;
   background: rgb(46, 46, 46);
@@ -40,7 +64,6 @@
 }
 .greenBox {
   position: relative;
-  width: 100%;
   height: 25%;
   background-color: #16e561;
 }
@@ -48,23 +71,19 @@
   position: relative;
   top: 10%;
   left: 50%;
-  width: 100%;
   height: 75%;
 }
 .ulNav li {
-  position: relative;
   list-style-type: none;
   text-decoration: none;
-  font-size: 5rem;
+  font-size: 5.5rem;
 }
 .ulNav li a {
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-  position: relative;
   color: #16e561;
   text-shadow: 2px 2px #086425;
-  font-family: "Chakra Petch", sans-serif;
   text-decoration: none;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .ulNav li:hover {
   list-style-type: "👉";
@@ -84,8 +103,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  padding: 0;
-  margin: 0;
 
   align-items: center;
   text-decoration: none;
@@ -97,14 +114,6 @@
   background: rgb(58, 58, 58);
   animation: scaling 0.5s ease forwards;
 }
-@keyframes scaling {
-  0% {
-    scale: 0%;
-  }
-  100% {
-    scale: 100%;
-  }
-}
 .social1:hover {
   background: rgb(46, 46, 46, 0.8);
 }
@@ -112,9 +121,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-
-  padding: 0;
-  margin: 0;
 
   align-items: center;
   text-decoration: none;
@@ -134,9 +140,6 @@
   display: flex;
   flex-direction: row;
 
-  padding: 0;
-  margin: 0;
-
   align-items: center;
   text-decoration: none;
 
@@ -145,7 +148,6 @@
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
   background: rgba(21, 207, 231, 0.8);
-
   animation: scaling 1.4s ease forwards;
 }
 .social3:hover {
@@ -155,8 +157,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  padding: 0;
-  margin: 0;
 
   align-items: center;
   text-decoration: none;
@@ -166,17 +166,23 @@
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
   background: rgb(107, 21, 141);
-
   animation: scaling 1.9s ease forwards;
 }
 .social4:hover {
   background: rgba(107, 21, 141, 0.92);
 }
+@keyframes scaling {
+  0% {
+    scale: 0%;
+  }
+  100% {
+    scale: 100%;
+  }
+}
 .imgSocial {
   position: relative;
   width: 94px;
   height: 94px;
-  padding-right: 50px;
   left: 15%;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
@@ -184,23 +190,23 @@
   position: relative;
   display: flex;
   font-size: 4.4em;
-  padding-right: 50px;
-  font-family: "Chakra Petch", sans-serif;
-  left: 22%;
+  left: 35%;
   color: antiquewhite;
   list-style-type: none;
   text-decoration: none;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Radicc {
+    left: 6%;
+    top: 15%;
+    font-size: clamp(2rem, 6vh, 3rem);
+  }
   .pushMenuDown {
     position: fixed;
-    display: flex;
-    width: 100%;
+    display: block;
     min-height: 90dvh;
-    flex-direction: column;
 
     top: 10dvh;
     background: rgb(6, 88, 68);
@@ -211,7 +217,6 @@
     flex-direction: row;
     width: 100%;
     height: 50%;
-    background: rgb(46, 46, 46);
     order: 1;
   }
   .greenBox {
@@ -225,47 +230,19 @@
     left: 0;
   }
   .ulNav li {
-    position: relative;
     display: flex;
-    list-style-type: none;
-    text-decoration: none;
     justify-content: center;
   }
   .ulNav li a {
-    cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-    position: relative;
-    color: #16e561;
-    text-shadow: 2px 2px #086425;
-    font-family: "Chakra Petch", sans-serif;
-    text-decoration: none;
     font-size: clamp(2.5rem, 7vh, 4rem);
   }
   .containerSocial {
-    background-color: rgb(46, 46, 46);
-    display: flex;
-    position: relative;
     flex-direction: column;
     order: 2;
     width: 100%;
     height: 50%;
   }
-  .social1 {
-    position: relative;
-    flex-direction: row;
-    width: 100%;
-    height: 25%;
-  }
-  .social2 {
-    flex-direction: row;
-    width: 100%;
-    height: 25%;
-  }
-  .social3 {
-    flex-direction: row;
-    width: 100%;
-    height: 25%;
-  }
-  .social4 {
+  .social {
     flex-direction: row;
     width: 100%;
     height: 25%;
@@ -276,16 +253,14 @@
     height: 64px;
     align-self: right;
     order: 2;
+    left: 30%;
   }
   .socialText {
     width: 50%;
     position: relative;
     display: flex;
     font-size: 2.5em;
-    padding-right: 50px;
-    font-family: "Chakra Petch", sans-serif;
     left: 5%;
-    color: antiquewhite;
     order: 1;
   }
 }

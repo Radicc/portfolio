@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import "./Footer.css";
+import "./Header.css";
 import Mail from "../src/images/mail.png";
 import "./CvButton.scss";
 import "./ContactSubmit.scss";

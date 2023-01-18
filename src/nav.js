@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "./nav.css";
+
 import "./BurgerMenu.css";
+import "./Header.css";
 
 export default function Nav(props) {
   const [Active, IsActive] = useState("off");
@@ -34,7 +35,19 @@ export default function Nav(props) {
   };
 
   return (
-    <div>
+    <div className="headerContainer">
+      <div onClick={handleClick} id="nav-icon2" className={Burger}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a className="Radicc" href="#Home">
+        RADICC
+      </a>
+
       <div className={Style}>
         <div className="containerNav">
           <div className="greenBox"></div>
@@ -61,6 +74,7 @@ export default function Nav(props) {
             </li>
           </ul>
         </div>
+
         <div className="containerSocial">
           <a
             className="social1"
@@ -111,28 +125,6 @@ export default function Nav(props) {
           </a>
         </div>
       </div>
-
-      <div onClick={handleClick} id="nav-icon2" className={Burger}>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <a href="#Home">
-        <h3 className="Radicc">RADICC</h3>
-      </a>
     </div>
   );
 }
-
-/*<div className="pushMenu">
-      <ul>
-        <li src="#">Home</li>
-        <li src="#">Portfolio</li>
-        <li src="#">Contact</li>
-        <li src="#">About me</li>
-      </ul>
-    </div>
-*/

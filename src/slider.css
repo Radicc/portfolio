@@ -1,14 +1,8 @@
-.body {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+.introduction {
   position: relative;
   justify-content: center;
 
   top: 10dvh;
-  min-height: 100dvh;
-  background-color: black;
   z-index: 0;
 }
 .container {
@@ -16,7 +10,9 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100%;
+  height: 100dvh;
+  align-items: center;
+  top: -5dvh;
 }
 
 .notSliderContainer {
@@ -42,19 +38,20 @@
   position: relative;
   filter: drop-shadow(5px 5px 5px #000000);
   max-width: 550px;
-  left: 25%;
+  left: 20%;
   opacity: 1;
-  top: -10dvh;
+  top: -5dvh;
 }
 
 .divTomRad {
   position: relative;
   display: flex;
   flex-direction: column;
+
   min-width: 51%;
-  top: 0dvh;
   left: 7.5%;
   z-index: 0;
+
   transform: translateX(0%);
   animation: divTomRadAnimation 1.5s ease forwards;
   opacity: 1;
@@ -76,8 +73,6 @@
   position: relative;
   display: flex;
   background: #086425;
-  padding: 0;
-  margin: 0;
   border-radius: 6px;
   max-width: 36%;
   transform: translateX(0%);
@@ -85,44 +80,32 @@
 
 .tomRadHi {
   color: #16e561;
-  font-family: "Chakra Petch", sans-serif;
   font-size: 2em;
-  padding: 0;
-  margin: 0;
-
   text-shadow: 2px 2px #086425;
 }
 .tomRadText {
   position: relative;
-  display: flex;
   color: #16e561;
-  font-family: "Chakra Petch", sans-serif;
   font-size: 5em;
-  padding: 0;
-  margin: 0;
   z-index: 2;
 
   text-shadow: 2px 2px #086425;
 }
 .tomRadUnderText {
   position: relative;
-  display: flex;
 
-  padding: 0;
   left: 1%;
   top: 3%;
 
   z-index: 1;
   color: rgb(192, 192, 192);
-  font-family: "Chakra Petch", sans-serif;
   text-shadow: 1.5px 1.5px #050505;
 }
 
 .divSlider {
+  top: 0;
   position: absolute;
   display: block;
-  margin: 0;
-  padding: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -137,20 +120,17 @@
   z-index: -1;
 }
 .photo1 {
-  display: flex;
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
   opacity: 1;
   animation: ani 16s ease forwards;
   animation-iteration-count: infinite;
   z-index: -2;
 }
 .photo2 {
-  display: flex;
   position: absolute;
   width: 100%;
-  height: auto;
   opacity: 1;
   z-index: -3;
 }
@@ -176,21 +156,8 @@
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .body {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-
-    width: 100%;
-    height: 85dvh;
-    background-color: rgb(20, 20, 20);
-  }
   .container {
-    width: 100%;
-    height: 40%;
-    top: -5dvh;
-    align-items: center;
+    position: relative;
     justify-content: center;
   }
 
@@ -203,50 +170,29 @@
   }
 
   .divTomRad {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     width: 90%;
-    min-height: 40dvh;
-    gap: 1%;
-    top: 0;
-    left: 0;
-    z-index: 0;
     align-items: center;
-    justify-content: center;
-
-    transform: translateX(0%);
-    animation: divTomRadAnimation 1.5s ease forwards;
-    opacity: 1;
+    left: 0;
   }
   .divHi {
     min-width: clamp(255px, 10%, 400px);
-    height: 12%;
   }
 
   .tomRadHi {
     color: #16e561;
-    font-family: "Chakra Petch", sans-serif;
     font-size: 1.5em;
-    padding: 0;
-    margin: 0;
     text-align: center;
 
     text-shadow: 2px 2px #086425;
   }
   .tomRadText {
-    min-width: 65%;
     font-size: 3.1em;
     text-align: center;
-    height: 30%;
   }
   .tomRadUnderText {
-    left: 0%;
-    top: 15%;
     min-width: 80%;
     text-align: center;
     font-size: 1em;
-    height: 58%;
   }
 
   .divSlider {
@@ -272,9 +218,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
+
     opacity: 1;
     animation: ani 16s ease forwards;
     animation-iteration-count: infinite;
+
     object-fit: cover;
     object-position: 25%;
     z-index: -2;
@@ -284,6 +232,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+
     opacity: 1;
     object-fit: cover;
     object-position: 25%;

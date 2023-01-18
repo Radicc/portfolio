@@ -1,5 +1,8 @@
 import "./App.css";
-import "./nav.css";
+import "./Header.css";
+import "./ToolsBar.css";
+import "./ProjectsBody.css";
+
 import Slider from "./Slider";
 import Nav from "./nav";
 import Tooler from "./tooler";
@@ -18,7 +21,7 @@ function App() {
         <Nav setCV={setCV} setMail={setMail} />
       </div>
 
-      <div className="body">
+      <div className="introduction">
         <div className="container">
           <div className="divTomRad">
             <div className="divHi">
