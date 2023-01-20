@@ -9,7 +9,7 @@
   text-transform: uppercase;
   overflow: hidden;
   align-items: center;
-  top: 4dvh;
+  top: 4vh;
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
   text-shadow: 1.5px 1.5px #086425;
@@ -105,5 +105,26 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Cvbutton2 {
+    position: relative;
+    display: flex;
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: #0fe955;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    top: 0vh;
+
+    cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+    text-shadow: 1.5px 1.5px #086425;
+    font-size: 1.2em;
+    filter: hue-rotate(0deg);
+    border: 2px solid #086425;
+    transition: all 0.1s linear;
   }
 }

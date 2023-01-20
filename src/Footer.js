@@ -32,13 +32,16 @@ export default function Footer(props) {
 
   return (
     <div className="containerFooter">
-      <a id="cvButt" href={"#" + ide} onClick={showCv} className="Cvbutton">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        CV
-      </a>
+      <div className="buttonContainer">
+        <a id="cvButt" href={"#" + ide} onClick={showCv} className="Cvbutton">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          CV
+        </a>
+      </div>
+
       <div id="ide" className={props.CV}>
         <div className="WhitePaper">
           <div className="LeftPaper">
@@ -78,7 +81,7 @@ export default function Footer(props) {
               <p>SELFTHOUGHT FRONTEND DEVELOPER</p>
             </div>
             <div className="AboutMe">
-              <h3 className="titel1">ABOUT ME</h3>
+              <h3 className="titles">ABOUT ME</h3>
               <p>
                 I am a self-taught student of frontend developing trying to
                 change profession. Experienced in HTML,CSS and JavaScript
@@ -87,14 +90,14 @@ export default function Footer(props) {
               </p>
             </div>
             <div className="AboutMe">
-              <h3 className="titel2">WORK EXPERIENCE</h3>
+              <h3 className="titles">WORK EXPERIENCE</h3>
               <p>
                 My journey is recorded on this website. Each project is designed
                 so that I can get a job as a Frontend developer.
               </p>
             </div>
             <div className="AboutMe">
-              <h3 className="titel3">SOFTWARE SKILL</h3>
+              <h3 className="titles">SOFTWARE SKILL</h3>
               <p>HTML, CSS, SASS, JAVASCRIPT, TYPESCRIPT, REACT.JS, GIT</p>
             </div>
           </div>

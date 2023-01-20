@@ -1,8 +1,8 @@
 .Cvbutton {
   position: absolute;
   display: flex;
-  top: -10dvh;
-  padding: 1.5dvh 4dvh;
+  top: -10vh;
+  padding: 1.5vh 4vh;
   border-radius: 4px;
   color: #0fe955;
   text-decoration: none;
@@ -111,6 +111,22 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Cvbutton {
     position: relative;
-    margin-top: 5dvh;
+    display: flex;
+    width: 7.5%;
+    top: 0vh;
+    padding: 1.5vh 4vh;
+    border-radius: 4px;
+    color: #0fe955;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    align-items: center;
+    cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
+
+    text-shadow: 1.5px 1.5px #086425;
+    font-size: 1.3em;
+    filter: hue-rotate(0deg);
+    border: 2px solid #086425;
+    transition: all 0.1s linear;
   }
 }

@@ -33,11 +33,11 @@
     display: flex;
 
     width: 100%;
-    min-height: 20dvh;
+    min-height: 20vh;
     background-color: #0fe955;
     justify-content: center;
     box-shadow: 0px 3px #086425;
-    margin-top: 0dvh;
+    margin-top: 0;
     gap: 0%;
     flex-direction: column;
   }

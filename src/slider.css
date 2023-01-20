@@ -2,7 +2,7 @@
   position: relative;
   justify-content: center;
 
-  top: 10dvh;
+  top: 10vh;
   z-index: 0;
 }
 .container {
@@ -10,9 +10,9 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100dvh;
+  height: 100vh;
   align-items: center;
-  top: -5dvh;
+  top: -5vh;
 }
 
 .notSliderContainer {
@@ -40,7 +40,7 @@
   max-width: 550px;
   left: 20%;
   opacity: 1;
-  top: -5dvh;
+  top: -5vh;
 }
 
 .divTomRad {
@@ -82,12 +82,14 @@
   color: #16e561;
   font-size: 2em;
   text-shadow: 2px 2px #086425;
+  margin: 0;
 }
 .tomRadText {
   position: relative;
   color: #16e561;
   font-size: 5em;
   z-index: 2;
+  margin: 0;
 
   text-shadow: 2px 2px #086425;
 }
