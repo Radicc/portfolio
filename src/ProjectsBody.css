@@ -7,7 +7,6 @@
   align-items: center;
 
   padding: 0;
-  margin-bottom: 10vh;
   width: 100%;
   gap: 10vh;
 
@@ -36,7 +35,6 @@
   position: relative;
   width: 45%;
   flex-direction: column;
-  gap: 3dvh;
   justify-content: center;
   align-items: center;
 }
@@ -88,7 +86,6 @@
   position: relative;
   width: 45%;
   flex-direction: column;
-  gap: 3dvh;
   justify-content: center;
   align-items: center;
 }
