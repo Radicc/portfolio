@@ -433,7 +433,7 @@ a {
     width: 18%;
     left: 0;
     order: 2;
-    top: -1vh;
+    top: 0vh;
   }
   .footerText {
     order: 1;
