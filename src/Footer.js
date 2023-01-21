@@ -6,6 +6,11 @@ import Mail from "../src/images/mail.png";
 import "./CvButton.scss";
 import "./ContactSubmit.scss";
 
+import gitHub from "../src/images/GitHub.png";
+import linkedIN from "../src/images/linkedIN.png";
+import twitter from "../src/images/twitterLogo.png";
+import instagram from "../src/images/instagram.png";
+
 export default function Footer(props) {
   //const [show, setShow] = useState("CvForm-Footer2None");
   const [ide, setIde] = useState("cvButt");
@@ -109,10 +114,7 @@ export default function Footer(props) {
           href="https://github.com/Radicc"
           target="_blank"
         >
-          <img
-            className="footerSocial"
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-          />
+          <img className="footerSocial" src={gitHub} />
           <p className="footerText">GitHub</p>
         </a>
         <a
@@ -120,10 +122,7 @@ export default function Footer(props) {
           href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-radi%C4%8D-068044221/"
           target="_blank"
         >
-          <img
-            className="footerSocial"
-            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-          />
+          <img className="footerSocial" src={linkedIN} />
           <p className="footerText">LinkedIn</p>
         </a>
         <a
@@ -131,10 +130,7 @@ export default function Footer(props) {
           href="https://twitter.com/TomRadi1"
           target="_blank"
         >
-          <img
-            className="footerSocial"
-            src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png"
-          />
+          <img className="footerSocial" src={twitter} />
           <p className="footerText">Twitter</p>
         </a>
         <a
@@ -142,10 +138,7 @@ export default function Footer(props) {
           href="https://www.instagram.com/radic.o_o/"
           target="_blank"
         >
-          <img
-            className="footerSocial"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png"
-          />
+          <img className="footerSocial" src={instagram} />
           <p className="footerText">Instagram</p>
         </a>
       </div>

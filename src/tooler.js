@@ -41,11 +41,6 @@ export default function Tooler() {
 
       <img
         className="toolsLogo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/2560px-AJAX_logo_by_gengns.svg.png"
-      />
-
-      <img
-        className="toolsLogo"
         src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
       />
       <div className="div1">

@@ -70,7 +70,7 @@
 .ulNav {
   position: relative;
   top: 10%;
-  left: 45%;
+  left: 40%;
   height: 75%;
 }
 .ulNav li {
@@ -111,11 +111,11 @@
   height: 25%;
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-  background: rgb(58, 58, 58);
+  background: rgb(46, 46, 46, 0.8);
   animation: scaling 0.5s ease forwards;
 }
 .social1:hover {
-  background: rgb(46, 46, 46, 0.8);
+  background: rgb(66, 66, 66);
 }
 .social2 {
   position: relative;
@@ -129,11 +129,11 @@
   height: 25%;
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-  background: rgba(22, 111, 134, 0.9);
+  background: #005481;
   animation: scaling 0.9s ease forwards;
 }
 .social2:hover {
-  background: rgb(22, 112, 134, 0.85);
+  background: #005d8f;
 }
 .social3 {
   position: relative;
@@ -147,11 +147,11 @@
   height: 25%;
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-  background: rgba(21, 207, 231, 0.8);
+  background: #4285b8;
   animation: scaling 1.4s ease forwards;
 }
 .social3:hover {
-  background: rgba(21, 207, 231, 0.75);
+  background: #4a96cf;
 }
 .social4 {
   position: relative;
@@ -165,11 +165,11 @@
   height: 25%;
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
-  background: rgb(107, 21, 141);
+  background: rgba(107, 21, 141, 0.92);
   animation: scaling 1.9s ease forwards;
 }
 .social4:hover {
-  background: rgba(107, 21, 141, 0.92);
+  background: rgb(120, 24, 158);
 }
 @keyframes scaling {
   0% {
@@ -184,6 +184,7 @@
   width: 94px;
   height: 94px;
   left: 15%;
+  top: -1vh;
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 }
 .socialText {
