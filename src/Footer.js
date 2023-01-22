@@ -60,12 +60,6 @@ export default function Footer(props) {
               <p> Bratislava / Slovakia </p>
               <p> 2016-2020</p>
             </div>
-            <div className="Reference">
-              <h2>Reference</h2>
-              <p>GAOL Energy Slovakia, s.r.o.</p>
-              <p>Elektrikár</p>
-              <p>2021 - 2022</p>
-            </div>
             <div className="CvContact">
               <h3>Phone</h3>
               <p>+421 000 000 000</p>

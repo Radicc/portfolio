@@ -614,7 +614,7 @@ a {
     font-size: 2em;
     left: 0vw;
     margin: 0;
-
+    text-decoration: none;
     text-shadow: 1.5px 1.5px #000000;
   }
   .AboutMe p {
