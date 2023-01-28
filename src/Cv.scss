@@ -1,5 +1,4 @@
 .Cvbutton2 {
-  order: 3;
   position: relative;
   display: flex;
   padding: 10px 10px;
@@ -9,7 +8,6 @@
   text-transform: uppercase;
   overflow: hidden;
   align-items: center;
-  top: 4vh;
 
   cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
   text-shadow: 1.5px 1.5px #086425;
@@ -118,7 +116,6 @@
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    top: 0vh;
 
     cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
     text-shadow: 1.5px 1.5px #086425;

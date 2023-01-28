@@ -4,16 +4,17 @@ import "./Cv.scss";
 import Project from "./project.jpg";
 import Project2 from "./project2.jpg";
 import ProjectFuture from "./ProjectNow.jpg";
+import WallStreetProject from "./images/wallstreetProject.jpg";
 
 export default function MyProjects() {
   return (
     <div id="Projects" className="myProjectsBody">
       <h1 className="projectsText">Projects</h1>
       <div className="projectBox1">
-        <img className="imgBox1" src={ProjectFuture} alt="error"></img>
+        <img className="imgBox1" src={WallStreetProject} alt="error"></img>
         <div className="projectContainer">
-          <h2>MY PORTFOLIO</h2>
-          <p className="textBox1">
+          <h2 className="projectContainerTitul">INVESTING</h2>
+          <p className="textBox">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
             turpis in urna lacinia luctus. Phasellus placerat tempor urna nec
             condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et
@@ -24,12 +25,21 @@ export default function MyProjects() {
             Nullam id posuere massa, sit amet rhoncus nulla. Morbi suscipit urna
             vitae tellus viverra, sed scelerisque odio ultrices.
           </p>
-          <div className="Cvbutton2">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            VISIT NOW!
+          <div className="CVbutton2Container">
+            <div
+              disabled
+              onClick={() =>
+                (window.location.href =
+                  "https://radicc.github.io/Research_Platform/")
+              }
+              className="Cvbutton2"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              VISIT NOW!
+            </div>
           </div>
         </div>
       </div>
@@ -37,8 +47,8 @@ export default function MyProjects() {
       <div className="projectBox2">
         <img className="imgBox2" src={ProjectFuture}></img>
         <div className="projectContainer2">
-          <h2>ESHOP</h2>
-          <p className="textBox2">
+          <h2 className="projectContainerTitul">ESHOP</h2>
+          <p className="textBox">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
             turpis in urna lacinia luctus. Phasellus placerat tempor urna nec
             condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et
@@ -50,12 +60,20 @@ export default function MyProjects() {
             vitae tellus viverra, sed scelerisque odio ultrices.
           </p>
 
-          <div className="Cvbutton2">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            VISIT NOW!
+          <div className="CVbutton2Container">
+            <div
+              disabled
+              onClick={() =>
+                (window.location.href = "https://www.freecodecamp.org/")
+              }
+              className="Cvbutton2"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              VISIT NOW!
+            </div>
           </div>
         </div>
       </div>
@@ -63,8 +81,8 @@ export default function MyProjects() {
       <div className="projectBox1">
         <img className="imgBox1" src={ProjectFuture}></img>
         <div className="projectContainer">
-          <h2>ESHOP</h2>
-          <p className="textBox1">
+          <h2 className="projectContainerTitul">ESHOP</h2>
+          <p className="textBox">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
             turpis in urna lacinia luctus. Phasellus placerat tempor urna nec
             condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et
@@ -75,12 +93,20 @@ export default function MyProjects() {
             Nullam id posuere massa, sit amet rhoncus nulla. Morbi suscipit urna
             vitae tellus viverra, sed scelerisque odio ultrices.
           </p>
-          <div className="Cvbutton2">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            VISIT NOW!
+          <div className="CVbutton2Container">
+            <div
+              disabled
+              onClick={() =>
+                (window.location.href = "https://www.freecodecamp.org/")
+              }
+              className="Cvbutton2"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              VISIT NOW!
+            </div>
           </div>
         </div>
       </div>

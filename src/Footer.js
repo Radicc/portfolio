@@ -183,13 +183,15 @@ export default function Footer(props) {
             placeholder="How can i help you?"
             spellCheck="false"
           ></textarea>
-          <button type="submit" className="ContactSubmit">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            SUBMIT
-          </button>
+          <div className="CVbutton2Container">
+            <button type="submit" className="ContactSubmit">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              SUBMIT
+            </button>
+          </div>
         </div>
       </form>
 
