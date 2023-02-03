@@ -17,7 +17,7 @@
 
   display: flex;
   position: relative;
-  width: 11%;
+  width: 13%;
   aspect-ratio: 3/2;
   object-fit: contain;
 
@@ -49,6 +49,7 @@
     position: relative;
     aspect-ratio: 3/4;
     width: 13%;
+
     object-fit: contain;
 
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));

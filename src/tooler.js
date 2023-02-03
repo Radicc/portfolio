@@ -21,11 +21,7 @@ export default function Tooler() {
 
       <img className="toolsLogo" src={JSlogo} />
 
-      <img className="toolsLogo" src={TSlogo} />
-
       <img className="toolsLogo" src={REACTlogo} />
-
-      <img className="toolsLogo" src={WEBPACKlogo} />
 
       <img className="toolsLogo" src={GITlogo} />
       <div className="div1">
@@ -33,16 +29,12 @@ export default function Tooler() {
 
         <img className="toolsLogo2" src={CSSlogo} />
 
-        <img className="toolsLogo2" src={SASSlogo} />
-
         <img className="toolsLogo2" src={JSlogo} />
       </div>
       <div className="div2">
-        <img className="toolsLogo2" src={TSlogo} />
-
         <img className="toolsLogo2" src={REACTlogo} />
 
-        <img className="toolsLogo2" src={WEBPACKlogo} />
+        <img className="toolsLogo2" src={SASSlogo} />
 
         <img className="toolsLogo2" src={GITlogo} />
       </div>

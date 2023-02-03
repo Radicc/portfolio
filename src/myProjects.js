@@ -11,7 +11,15 @@ export default function MyProjects() {
     <div id="Projects" className="myProjectsBody">
       <h1 className="projectsText">Projects</h1>
       <div className="projectBox1">
-        <img className="imgBox1" src={WallStreetProject} alt="error"></img>
+        <img
+          onClick={() =>
+            (window.location.href =
+              "https://radicc.github.io/Research_Platform/")
+          }
+          className="imgBox1"
+          src={WallStreetProject}
+          alt="error"
+        ></img>
         <div className="projectContainer">
           <h2 className="projectContainerTitul">INVESTING</h2>
           <p className="textBox">
@@ -61,13 +69,7 @@ export default function MyProjects() {
           </p>
 
           <div className="CVbutton2Container">
-            <div
-              disabled
-              onClick={() =>
-                (window.location.href = "https://www.freecodecamp.org/")
-              }
-              className="Cvbutton2"
-            >
+            <div className="Cvbutton2">
               <span></span>
               <span></span>
               <span></span>
@@ -94,13 +96,7 @@ export default function MyProjects() {
             vitae tellus viverra, sed scelerisque odio ultrices.
           </p>
           <div className="CVbutton2Container">
-            <div
-              disabled
-              onClick={() =>
-                (window.location.href = "https://www.freecodecamp.org/")
-              }
-              className="Cvbutton2"
-            >
+            <div className="Cvbutton2">
               <span></span>
               <span></span>
               <span></span>

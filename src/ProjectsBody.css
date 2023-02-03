@@ -50,6 +50,7 @@
   position: relative;
   width: 50%;
   height: auto;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 
   border-radius: 6px;
 
@@ -97,6 +98,7 @@
   position: relative;
   width: 50%;
   height: auto;
+  cursor: url("../src/images/iconmonstr-cursor-2.png"), default;
 
   order: 2;
 

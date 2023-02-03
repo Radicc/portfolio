@@ -31,8 +31,8 @@ function App() {
             <h3 className="tomRadUnderText">
               I am a self-taught student of frontend development trying to
               change profession. Experienced in HTML, CSS and JavaScript
-              specializing in ReactJS library. Implementing CSS-extension SASS
-              and JavaScript-syntactical superset TypeScript.
+              specializing in ReactJS library and implementing CSS-extension
+              SASS.
             </h3>
           </div>
 

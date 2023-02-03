@@ -10,6 +10,7 @@ import gitHub from "../src/images/GitHub.png";
 import linkedIN from "../src/images/linkedIN.png";
 import twitter from "../src/images/twitterLogo.png";
 import instagram from "../src/images/instagram.png";
+import avatar from "../src/images/avatar.jpg";
 
 export default function Footer(props) {
   //const [show, setShow] = useState("CvForm-Footer2None");
@@ -50,10 +51,7 @@ export default function Footer(props) {
       <div id="ide" className={props.CV}>
         <div className="WhitePaper">
           <div className="LeftPaper">
-            <img
-              className="CvPicture"
-              src="https://www.fredericvigier.com/wp-content/uploads/2021/01/directeur-communication-photo-cv.jpg"
-            ></img>
+            <img className="CvPicture" src={avatar}></img>
             <div className="Education">
               <h2>Education</h2>
               <p>Secondary School of Electrical Engineering</p>
@@ -62,7 +60,7 @@ export default function Footer(props) {
             </div>
             <div className="CvContact">
               <h3>Phone</h3>
-              <p>+421 000 000 000</p>
+              <p>+421 951 421 115</p>
 
               <h3>Email</h3>
               <p>tomas.radic00@gmail.com</p>
@@ -82,10 +80,10 @@ export default function Footer(props) {
             <div className="AboutMe">
               <h3 className="titles">ABOUT ME</h3>
               <p>
-                I am a self-taught student of frontend developing trying to
-                change profession. Experienced in HTML,CSS and JavaScript
-                specializing in ReactJS library. Implementing CSS-extansion SASS
-                and JavaScript-syntactical superset TypeScript.
+                I am a self-taught student of frontend development trying to
+                change profession. Experienced in HTML, CSS and JavaScript
+                specializing in ReactJS library and implementing CSS-extension
+                SASS.
               </p>
             </div>
             <div className="AboutMe">
@@ -97,7 +95,7 @@ export default function Footer(props) {
             </div>
             <div className="AboutMe">
               <h3 className="titles">SOFTWARE SKILL</h3>
-              <p>HTML, CSS, SASS, JAVASCRIPT, TYPESCRIPT, REACT.JS, GIT</p>
+              <p>HTML, CSS, SASS, JAVASCRIPT, REACT.JS, GIT</p>
             </div>
           </div>
         </div>
