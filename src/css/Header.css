@@ -1,0 +1,273 @@
+.header {
+  position: fixed;
+  display: flex;
+  height: 10vh;
+  width: 100%;
+
+  background-color: #10e956;
+  box-shadow: 0px 3px #086425;
+
+  z-index: 1;
+  animation: headerAnimaiton 1s ease forwards;
+  transform: translateY(-105%);
+}
+@keyframes headerAnimaiton {
+  0% {
+    transform: translateY(-105%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+.headerContainer {
+  width: 100%;
+}
+.Radicc {
+  position: relative;
+  top: 1.5vh;
+  left: 10vh;
+
+  font-size: 3rem;
+  color: #060810;
+  text-shadow: 2px 2px #060810;
+  text-decoration: none;
+
+  cursor: url("../images/iconmonstr-cursor-2.png") default;
+}
+.pushMenuDown {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgb(6, 88, 68);
+  z-index: 3;
+}
+
+.pushMenuHidden {
+  display: none;
+}
+
+.containerNav {
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: rgb(46, 46, 46);
+  order: 2;
+}
+.greenBox {
+  position: relative;
+  height: 25%;
+  background-color: #16e561;
+}
+.ulNav {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  height: 75%;
+}
+.ulNav li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 5.5rem;
+}
+.ulNav li a {
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  color: #16e561;
+  text-shadow: 2px 2px #086425;
+  text-decoration: none;
+  font-size: 6rem;
+}
+.ulNav li:hover {
+  list-style-type: "👉";
+  padding: 0;
+}
+
+.containerSocial {
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  width: 50%;
+  height: 100%;
+}
+.social1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-decoration: none;
+
+  width: 100%;
+  height: 25%;
+
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  background: rgb(46, 46, 46, 0.8);
+  animation: scaling 0.5s ease forwards;
+}
+.social1:hover {
+  background: rgb(66, 66, 66);
+}
+.social2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-decoration: none;
+
+  width: 100%;
+  height: 25%;
+
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  background: #005481;
+  animation: scaling 0.9s ease forwards;
+}
+.social2:hover {
+  background: #005d8f;
+}
+.social3 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-decoration: none;
+
+  width: 100%;
+  height: 25%;
+
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  background: #4285b8;
+  animation: scaling 1.4s ease forwards;
+}
+.social3:hover {
+  background: #4a96cf;
+}
+.social4 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-decoration: none;
+
+  width: 100%;
+  height: 25%;
+
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  background: rgba(107, 21, 141, 0.92);
+  animation: scaling 1.9s ease forwards;
+}
+.social4:hover {
+  background: rgb(120, 24, 158);
+}
+@keyframes scaling {
+  0% {
+    scale: 0%;
+  }
+  100% {
+    scale: 100%;
+  }
+}
+.imgSocial {
+  position: relative;
+  width: 94px;
+  height: 94px;
+  left: 15%;
+  top: -1vh;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+.socialText {
+  position: relative;
+  display: flex;
+  font-size: 4.4em;
+  left: 35%;
+  color: antiquewhite;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Radicc {
+    top: 1vh;
+    left: 2vh;
+    font-size: clamp(2rem, 6vh, 3rem);
+  }
+  .pushMenuDown {
+    position: fixed;
+    display: block;
+    height: 90vh;
+
+    top: 10dvh;
+    background: rgb(6, 88, 68);
+  }
+  .containerNav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .greenBox {
+    display: none;
+  }
+  .ulNav {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+  .ulNav li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .ulNav li a {
+    font-size: clamp(2.5rem, 7vh, 4rem);
+  }
+  .containerSocial {
+    flex-direction: column;
+    order: 2;
+    width: 100%;
+    height: 50%;
+  }
+  .social1 {
+    background: rgb(66, 66, 66);
+  }
+  .social {
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+  }
+  .imgSocial {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    align-self: right;
+    order: 2;
+    left: 30%;
+    top: 0;
+  }
+  .socialText {
+    width: 50%;
+    position: relative;
+    display: flex;
+    font-size: 2.5em;
+    left: 5%;
+    order: 1;
+  }
+}

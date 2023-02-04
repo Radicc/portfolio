@@ -1,9 +1,8 @@
 import React from "react";
-import "./App.css";
-import "./Cv.scss";
-import Project from "./project.jpg";
-import Project2 from "./project2.jpg";
-import ProjectFuture from "./ProjectNow.jpg";
+import "./css/App.css";
+import "./css/Cv.scss";
+
+import ProjectFuture from "./images/ProjectNow.jpg";
 import WallStreetProject from "./images/wallstreetProject.jpg";
 
 export default function MyProjects() {

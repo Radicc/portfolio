@@ -1,0 +1,723 @@
+.containerFooter {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+
+  width: 100%;
+  height: 100%;
+  top: 20vh;
+}
+.buttonContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.Footer1 {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 15vh;
+}
+
+.socialFooterContainer1 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+
+  background: rgb(46, 46, 46, 0.8);
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer1:hover {
+  background: rgb(66, 66, 66);
+}
+.socialFooterContainer2 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+
+  background: #005481;
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer2:hover {
+  background: #005d8f;
+}
+.socialFooterContainer3 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  background: #4285b8;
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer3:hover {
+  background: #4a96cf;
+}
+.socialFooterContainer4 {
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  background: rgba(107, 21, 141, 0.92);
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+.socialFooterContainer4:hover {
+  background: rgb(120, 24, 158);
+}
+.footerSocial {
+  position: relative;
+  display: flex;
+  width: 16%;
+  right: 10%;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  top: -0.5vh;
+}
+.footerText {
+  position: relative;
+  display: flex;
+  font-size: 2.8em;
+  color: antiquewhite;
+  left: 8%;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+
+.CvForm-Footer2 {
+  display: flex;
+  position: relative;
+  background-color: rgb(20, 20, 20);
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 10vh;
+}
+.CvForm-Footer2None {
+  display: none;
+}
+.WhitePaper {
+  display: flex;
+  position: relative;
+  width: 70%;
+  height: 90%;
+  background-color: #c5cbd2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+.LeftPaper {
+  display: flex;
+  position: relative;
+  width: 25%;
+  height: auto;
+  flex-direction: column;
+  background-color: #2d3755;
+  border-radius: 10px 0 0 10px;
+}
+.CvPicture {
+  position: relative;
+  border-radius: 10px 0 0 0;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Education {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Education h2 {
+  color: whitesmoke;
+  font-size: 2.5em;
+  text-shadow: 1.5px 1.5px #060810;
+  text-decoration: underline whitesmoke;
+}
+.Education p {
+  color: whitesmoke;
+  font-size: 1.1em;
+  margin: 0.5vh;
+  width: 80%;
+}
+.Reference {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 1;
+  gap: 0.5em;
+}
+.Reference h2 {
+  color: whitesmoke;
+  font-size: 2.5em;
+  text-shadow: 1.5px 1.5px #060810;
+  margin-bottom: 0.5vh;
+  text-decoration: underline whitesmoke;
+}
+.Reference p {
+  color: whitesmoke;
+  font-size: 1.1em;
+  margin: 0.5vh;
+}
+.CvContact {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+.CvContact h3 {
+  background-color: black;
+  font-size: 1.8em;
+  text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+  color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
+.CvContact p,
+a {
+  align-self: center;
+  font-size: 1.1rem;
+  color: whitesmoke;
+  margin: 0vh;
+}
+.RightPaper {
+  position: relative;
+  width: 75%;
+  top: 10vh;
+  border-radius: 0 10px 10px 0;
+}
+.NameTitul {
+  display: flex;
+  position: relative;
+  background-color: #2d3755;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 30vh;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.NameTitul h1 {
+  position: relative;
+  font-size: 6em;
+  left: 10vh;
+  margin: 0;
+
+  color: whitesmoke;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.NameTitul p {
+  position: relative;
+  font-size: 1.5em;
+  left: 11vh;
+  margin: 0;
+
+  color: whitesmoke;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.AboutMe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.titles {
+  position: relative;
+  display: flex;
+  font-size: 2.5em;
+  left: 7vw;
+  text-decoration: underline;
+
+  text-shadow: 1.5px 1.5px #060810;
+}
+.AboutMe p {
+  position: relative;
+  display: flex;
+  font-size: 1.2em;
+  width: 70%;
+  align-self: center;
+}
+.Footer2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #16e561;
+  width: 100%;
+  height: 6vh;
+  margin: 0;
+  padding: 0;
+}
+.Footer2 a {
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  color: rgb(240, 240, 240);
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+  text-decoration: none;
+}
+.Footer2 a:hover {
+  text-decoration: underline;
+}
+.Footer2 img {
+  position: relative;
+  cursor: pointer;
+  width: 4.5%;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+}
+
+.contactBackgroundFlex {
+  position: relative;
+  display: flex;
+  min-height: 85vh;
+  width: 100%;
+  justify-content: center;
+}
+.contactBackgroundNone {
+  position: relative;
+  display: none;
+  height: 120vh;
+  width: 100%;
+  justify-content: center;
+}
+.contactContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 90%;
+  gap: 4.5vh;
+  font-size: 1.5em;
+  padding-top: 5vh;
+}
+.contactContainer h1 {
+  position: relative;
+  font-size: 2.5em;
+  color: #16e561;
+  text-shadow: 2px 2px #086425;
+  margin: 0;
+}
+.contactContainer input {
+  width: 30vw;
+  height: 5vh;
+  cursor: auto;
+  font-size: 0.8em;
+  padding-left: 1vw;
+  border: 5px solid #16e561;
+  border-radius: 3px;
+  outline: none;
+  background-color: #001f0b;
+  color: #16e561;
+  text-shadow: 1.3px 1.3px #00000038;
+  text-decoration: none;
+}
+.contactContainer input::placeholder {
+  color: whitesmoke;
+  text-shadow: 1.3px 1.3px #00000038;
+  opacity: 0.7;
+}
+.contactContainer textarea {
+  width: 30vw;
+  height: 20vh;
+  cursor: auto;
+  font-size: 0.8em;
+  padding-left: 1vw;
+  padding-top: 1vw;
+  border: 5px solid #16e561;
+  border-radius: 3px;
+  background-color: #001f0b;
+  outline: none;
+  color: #16e561;
+  text-shadow: 1.3px 1.3px #00000038;
+  text-decoration: none;
+}
+.contactContainer textarea::placeholder {
+  color: whitesmoke;
+  text-shadow: 1.3px 1.3px #00000038;
+  opacity: 0.7;
+}
+
+.Footer3 {
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(20, 20, 20);
+}
+.Footer3 p {
+  color: #16e561;
+  font-size: 1.2rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .containerFooter {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+  }
+  .buttonContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    margin: 10vh 0;
+  }
+  .Footer1 {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .socialFooterContainer1 {
+    width: 100%;
+    height: 12.5vh;
+    justify-content: center;
+    gap: 44%;
+  }
+
+  .socialFooterContainer2 {
+    width: 100%;
+    height: 12.5vh;
+    justify-content: center;
+    gap: 35%;
+  }
+
+  .socialFooterContainer3 {
+    width: 100%;
+    height: 12.5vh;
+    justify-content: center;
+    gap: 42%;
+  }
+
+  .socialFooterContainer4 {
+    width: 100%;
+    height: 12.5vh;
+    justify-content: center;
+    gap: 29%;
+  }
+
+  .footerSocial {
+    display: flex;
+    width: 18%;
+    left: 0;
+    order: 2;
+    top: 0vh;
+  }
+  .footerText {
+    order: 1;
+    font-size: 2em;
+  }
+  .CvForm-Footer2 {
+    display: flex;
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: -6vh;
+    margin-bottom: 20vh;
+  }
+  .CvForm-Footer2None {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(20, 20, 20);
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .WhitePaper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    background-color: #c5cbd2;
+    border-radius: 0;
+  }
+  .LeftPaper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 0vh;
+    order: 2;
+    margin-top: 5vh;
+    flex-direction: column;
+    background-color: #2d3755;
+    border-radius: 0;
+    gap: 5vh;
+  }
+  .CvPicture {
+    position: relative;
+    border-radius: 0;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .Education {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    flex-basis: 1;
+  }
+  .Education h2 {
+    color: whitesmoke;
+    font-size: 2.5em;
+    text-shadow: 1.5px 1.5px #060810;
+    text-decoration: underline whitesmoke;
+    margin: 0;
+  }
+  .Education p {
+    color: whitesmoke;
+    font-size: 1.1em;
+    margin: 0;
+    width: 90%;
+  }
+  .Reference {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 1;
+  }
+  .Reference h2 {
+    color: whitesmoke;
+    font-size: 2.5em;
+    text-shadow: 1.5px 1.5px #060810;
+    margin-bottom: 2vh;
+    margin: 0;
+    text-decoration: underline whitesmoke;
+  }
+  .Reference p {
+    color: whitesmoke;
+    font-size: 1.1em;
+    margin: 0;
+  }
+  .CvContact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 2vh 0;
+  }
+  .CvContact h3 {
+    background-color: black;
+    font-size: 1.8em;
+    text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .CvContact p,
+  a {
+    align-self: center;
+    font-size: 1.1rem;
+    color: whitesmoke;
+  }
+  .RightPaper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    order: 1;
+    top: 0;
+    border-radius: 0 10px 10px 0;
+    flex-direction: column;
+    gap: 8vh;
+  }
+  .NameTitul {
+    display: flex;
+    position: relative;
+    background-color: #2d3755;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    min-height: 25vh;
+    top: 5vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .NameTitul h1 {
+    position: relative;
+    font-size: 4em;
+    left: 0dvh;
+
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px #000000;
+  }
+  .NameTitul p {
+    position: relative;
+    font-size: 1.2em;
+    left: 0vh;
+
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px #000000;
+  }
+  .AboutMe {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    gap: 3.5vh;
+    text-align: center;
+    align-items: center;
+  }
+  .titles {
+    position: relative;
+    display: flex;
+    font-size: 2em;
+    left: 0vw;
+    margin: 0;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px #000000;
+  }
+  .AboutMe p {
+    position: relative;
+    display: flex;
+    font-size: 1em;
+    width: 95%;
+    margin: 0;
+  }
+  .Footer2 {
+    width: 100%;
+    height: 8vh;
+  }
+  .Footer2 a {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.8em;
+    text-decoration: underline;
+  }
+  .Footer2 a:hover {
+    text-decoration: none;
+  }
+  .Footer2 img {
+    display: none;
+    width: 18%;
+  }
+  .contactBackgroundFlex {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4vh;
+    font-size: 1.5em;
+    padding: 0;
+  }
+  .contactContainer h1 {
+    position: relative;
+    font-size: 2.2em;
+    color: #16e561;
+    text-shadow: 2px 2px #086425;
+  }
+  .contactContainer input {
+    width: 70%;
+    height: 5vh;
+    cursor: auto;
+    font-size: 0.7em;
+    padding-left: 2vw;
+    border: 3px solid #16e561;
+    border-radius: 3px;
+    outline: none;
+    background-color: #001f0b;
+    color: #16e561;
+    text-shadow: 1.3px 1.3px #00000038;
+    text-decoration: none;
+  }
+  .contactContainer input::placeholder {
+    color: whitesmoke;
+    text-shadow: 1.3px 1.3px #00000038;
+    opacity: 0.7;
+  }
+  .contactContainer textarea {
+    width: 70%;
+    min-height: 15vh;
+    cursor: auto;
+    font-size: 0.7em;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    border: 3px solid #16e561;
+    border-radius: 3px;
+    background-color: #001f0b;
+    outline: none;
+
+    color: #16e561;
+    text-shadow: 1.3px 1.3px #00000038;
+    text-decoration: none;
+  }
+  .contactContainer textarea::placeholder {
+    color: whitesmoke;
+    text-shadow: 1.3px 1.3px #00000038;
+    opacity: 0.7;
+  }
+
+  .Footer3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 6vh;
+    background-color: rgb(20, 20, 20);
+  }
+  .Footer3 p {
+    color: #16e561;
+    font-size: 0.8rem;
+  }
+}
