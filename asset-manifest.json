@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.75221e7d.css",
-    "main.js": "/profile/static/js/main.03cf7c1a.js",
+    "main.js": "/profile/static/js/main.3c800263.js",
     "static/js/787.60235f71.chunk.js": "/profile/static/js/787.60235f71.chunk.js",
     "static/media/photo2.jpg": "/profile/static/media/photo2.cf7b6bd11cab94294c3e.jpg",
-    "static/media/wallstreetProject.jpg": "/profile/static/media/wallstreetProject.c4db7d0d4fb459c0e176.jpg",
     "static/media/JSlogo.png": "/profile/static/media/JSlogo.cae65a84867e9d6ad7bf.png",
+    "static/media/wallstreetProject.jpg": "/profile/static/media/wallstreetProject.8dec1151c0c61a451332.jpg",
     "static/media/programmer2.png": "/profile/static/media/programmer2.bf9d2d8ffb4a5d2451a3.png",
     "static/media/instagram.png": "/profile/static/media/instagram.6974fe156993927084e3.png",
     "static/media/GitHub.png": "/profile/static/media/GitHub.dc8b15fe43e8a1110d21.png",
@@ -23,11 +23,11 @@
     "static/media/avatar.jpg": "/profile/static/media/avatar.612ad3e975c413565d66.jpg",
     "index.html": "/profile/index.html",
     "main.75221e7d.css.map": "/profile/static/css/main.75221e7d.css.map",
-    "main.03cf7c1a.js.map": "/profile/static/js/main.03cf7c1a.js.map",
+    "main.3c800263.js.map": "/profile/static/js/main.3c800263.js.map",
     "787.60235f71.chunk.js.map": "/profile/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75221e7d.css",
-    "static/js/main.03cf7c1a.js"
+    "static/js/main.3c800263.js"
   ]
 }
