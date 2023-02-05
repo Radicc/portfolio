@@ -34,6 +34,7 @@
   display: flex;
   width: 25%;
   height: 100%;
+  gap: 15%;
 
   background: rgb(46, 46, 46, 0.8);
   text-decoration: none;
@@ -50,6 +51,7 @@
   display: flex;
   width: 25%;
   height: 100%;
+  gap: 15%;
 
   background: #005481;
   text-decoration: none;
@@ -68,6 +70,7 @@
   height: 100%;
   background: #4285b8;
   text-decoration: none;
+  gap: 15%;
 
   align-items: center;
   justify-content: center;
@@ -83,6 +86,7 @@
   height: 100%;
   background: rgba(107, 21, 141, 0.92);
   text-decoration: none;
+  gap: 15%;
 
   align-items: center;
   justify-content: center;
@@ -95,17 +99,15 @@
   position: relative;
   display: flex;
   width: 16%;
-  right: 10%;
-  cursor: url("../images/iconmonstr-cursor-2.png"), default;
+
   top: -0.5vh;
 }
 .footerText {
   position: relative;
   display: flex;
+
   font-size: 2.8em;
   color: antiquewhite;
-  left: 8%;
-  cursor: url("../images/iconmonstr-cursor-2.png"), default;
 }
 
 .CvForm-Footer2 {
@@ -380,9 +382,9 @@ a {
   font-size: 1.2rem;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait) ----------- */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 480px) {
   .containerFooter {
     display: flex;
     position: relative;
@@ -413,28 +415,24 @@ a {
     width: 100%;
     height: 12.5vh;
     justify-content: center;
-    gap: 44%;
   }
 
   .socialFooterContainer2 {
     width: 100%;
     height: 12.5vh;
     justify-content: center;
-    gap: 35%;
   }
 
   .socialFooterContainer3 {
     width: 100%;
     height: 12.5vh;
     justify-content: center;
-    gap: 42%;
   }
 
   .socialFooterContainer4 {
     width: 100%;
     height: 12.5vh;
     justify-content: center;
-    gap: 29%;
   }
 
   .footerSocial {
@@ -446,7 +444,9 @@ a {
   }
   .footerText {
     order: 1;
+    width: 50%;
     font-size: 2em;
+    left: 0;
   }
   .CvForm-Footer2 {
     display: flex;
@@ -719,5 +719,235 @@ a {
   .Footer3 p {
     color: #16e561;
     font-size: 0.8rem;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1500px) {
+  .containerFooter {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+  }
+  .buttonContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    margin: 10vh 0;
+  }
+  .WhitePaper {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: #c5cbd2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+  }
+  .LeftPaper {
+    display: flex;
+    position: relative;
+    width: 36%;
+    height: auto;
+    flex-direction: column;
+    background-color: #2d3755;
+    border-radius: 10px 0 0 10px;
+  }
+  .NameTitul {
+    display: flex;
+    position: relative;
+    background-color: #2d3755;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 20vh;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .NameTitul h1 {
+    position: relative;
+    font-size: 4.5em;
+    left: 0vh;
+    margin: 0;
+
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px #000000;
+  }
+  .NameTitul p {
+    position: relative;
+    font-size: 1.4em;
+    left: 0;
+    margin: 0;
+
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px #000000;
+  }
+
+  .AboutMe {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .titles {
+    position: relative;
+    display: flex;
+    font-size: 2.5rem;
+    left: 0vw;
+    text-decoration: underline;
+    margin: 0.6em;
+
+    text-shadow: 1.5px 1.5px #060810;
+  }
+  .AboutMe p {
+    position: relative;
+    display: flex;
+    font-size: 1.2em;
+    width: 80%;
+    align-self: center;
+  }
+  .Footer1 {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .socialFooterContainer1 {
+    width: 100%;
+    height: 12.5vh;
+    align-items: center;
+  }
+
+  .socialFooterContainer2 {
+    width: 100%;
+    height: 12.5vh;
+  }
+
+  .socialFooterContainer3 {
+    width: 100%;
+    height: 12.5vh;
+  }
+
+  .socialFooterContainer4 {
+    width: 100%;
+    height: 12.5vh;
+  }
+
+  .footerSocial {
+    width: 12vw;
+    order: 2;
+    top: 0vh;
+    right: 0;
+  }
+  .footerText {
+    order: 1;
+    width: 50%;
+    font-size: 3rem;
+    left: 0;
+  }
+
+  .Footer2 {
+    width: 100%;
+    height: 8vh;
+  }
+  .Footer2 a {
+    position: relative;
+    cursor: pointer;
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+  .Footer2 a:hover {
+    text-decoration: none;
+  }
+  .Footer2 img {
+    display: none;
+    width: 15%;
+  }
+  .contactBackgroundFlex {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4vh;
+    font-size: 1.5em;
+    padding: 0;
+  }
+  .contactContainer h1 {
+    position: relative;
+    font-size: 2.2em;
+    color: #16e561;
+    text-shadow: 2px 2px #086425;
+  }
+  .contactContainer input {
+    width: 70%;
+    height: 5vh;
+    cursor: auto;
+    font-size: 0.7em;
+    padding-left: 2vw;
+    border: 3px solid #16e561;
+    border-radius: 3px;
+    outline: none;
+    background-color: #001f0b;
+    color: #16e561;
+    text-shadow: 1.3px 1.3px #00000038;
+    text-decoration: none;
+  }
+  .contactContainer input::placeholder {
+    color: whitesmoke;
+    text-shadow: 1.3px 1.3px #00000038;
+    opacity: 0.7;
+  }
+  .contactContainer textarea {
+    width: 70%;
+    min-height: 15vh;
+    cursor: auto;
+    font-size: 0.7em;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    border: 3px solid #16e561;
+    border-radius: 3px;
+    background-color: #001f0b;
+    outline: none;
+
+    color: #16e561;
+    text-shadow: 1.3px 1.3px #00000038;
+    text-decoration: none;
+  }
+  .contactContainer textarea::placeholder {
+    color: whitesmoke;
+    text-shadow: 1.3px 1.3px #00000038;
+    opacity: 0.7;
+  }
+
+  .Footer3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 6vh;
+    background-color: rgb(20, 20, 20);
+  }
+  .Footer3 p {
+    color: #16e561;
+    font-size: 1.2rem;
   }
 }
