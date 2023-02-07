@@ -20,17 +20,14 @@ export default function MyProjects() {
           alt="error"
         ></img>
         <div className="projectContainer">
-          <h2 className="projectContainerTitul">INVESTING</h2>
+          <h2 className="projectContainerTitul">Research Platform</h2>
           <p className="textBox">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
-            turpis in urna lacinia luctus. Phasellus placerat tempor urna nec
-            condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia curae; Fusce dignissim tempus vestibulum.
-            Aenean sed imperdiet ex. Etiam nisi eros, consectetur in venenatis
-            nec, congue fermentum augue. Aenean tristique viverra metus, vel
-            suscipit diam egestas ut. Nam scelerisque ipsum in lacinia placerat.
-            Nullam id posuere massa, sit amet rhoncus nulla. Morbi suscipit urna
-            vitae tellus viverra, sed scelerisque odio ultrices.
+            Investment educative website with tools like a Retirement calculator
+            and study sections with free information about the best investment
+            books, youtube channels, and websites. In the future, I am going to
+            add StockAnalyzer tool for calculating the fair value of specific
+            stock and fundamental information like the Metrics, Income
+            Statement, Balance Sheet and Cashflow.
           </p>
           <div className="CVbutton2Container">
             <div

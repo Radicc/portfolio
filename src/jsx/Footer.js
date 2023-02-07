@@ -10,7 +10,7 @@ import gitHub from "../images/GitHub.png";
 import linkedIN from "../images/linkedIN.png";
 import twitter from "../images/twitterLogo.png";
 import instagram from "../images/instagram.png";
-import avatar from "../images/avatar.jpg";
+import avatar from "../images/Tom1.jpg";
 
 export default function Footer(props) {
   //const [show, setShow] = useState("CvForm-Footer2None");
@@ -80,22 +80,21 @@ export default function Footer(props) {
             <div className="AboutMe">
               <h3 className="titles">ABOUT ME</h3>
               <p>
-                I am a self-taught student of frontend development trying to
-                change profession. Experienced in HTML, CSS and JavaScript
-                specializing in ReactJS library and implementing CSS-extension
-                SASS.
+                Passionate self-taught student of frontend development trying to
+                change profession. Desire to learn and grow in a collaborative
+                team environment.
               </p>
             </div>
             <div className="AboutMe">
               <h3 className="titles">WORK EXPERIENCE</h3>
-              <p>
-                My journey is recorded on this website. Each project is designed
-                so that I can get a job as a Frontend developer.
-              </p>
+              <p></p>
             </div>
             <div className="AboutMe">
               <h3 className="titles">SOFTWARE SKILL</h3>
-              <p>HTML, CSS, SASS, JAVASCRIPT, REACT.JS, GIT</p>
+              <p>
+                ●HTML, ●CSS, ●SASS, ●Javascript, ●React, ●GIT, ●Adobe Photoshop,
+                ●Blender
+              </p>
             </div>
           </div>
         </div>
@@ -111,7 +110,7 @@ export default function Footer(props) {
         </a>
         <a
           className="socialFooterContainer2"
-          href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-radi%C4%8D-068044221/"
+          href="https://www.linkedin.com/in/tomas-radicc/"
           target="_blank"
         >
           <img className="footerSocial" src={linkedIN} />

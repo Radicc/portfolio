@@ -92,7 +92,7 @@ export default function Nav(props) {
 
           <a
             className="social2"
-            href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-radi%C4%8D-068044221/"
+            href="https://www.linkedin.com/in/tomas-radicc/"
             target="_blank"
           >
             <img className="imgSocial" src={linkedIN} />
