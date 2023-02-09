@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.d7c12fa8.css",
-    "main.js": "/profile/static/js/main.192c63ab.js",
+    "main.css": "/profile/static/css/main.a06c74f7.css",
+    "main.js": "/profile/static/js/main.368e83df.js",
     "static/js/787.60235f71.chunk.js": "/profile/static/js/787.60235f71.chunk.js",
+    "static/media/Tom1.jpg": "/profile/static/media/Tom1.8f0db7816d123a83c526.jpg",
     "static/media/photo2.jpg": "/profile/static/media/photo2.cf7b6bd11cab94294c3e.jpg",
     "static/media/JSlogo.png": "/profile/static/media/JSlogo.cae65a84867e9d6ad7bf.png",
     "static/media/wallstreetProject.jpg": "/profile/static/media/wallstreetProject.8dec1151c0c61a451332.jpg",
@@ -18,14 +19,13 @@
     "static/media/ProjectNow.jpg": "/profile/static/media/ProjectNow.8b01cd1e948013d804ed.jpg",
     "static/media/CSS3logo.png": "/profile/static/media/CSS3logo.84de5dab5fab27f4161c.png",
     "static/media/mail.png": "/profile/static/media/mail.8b1983f54205d7bd8314.png",
-    "static/media/avatar.jpg": "/profile/static/media/avatar.612ad3e975c413565d66.jpg",
     "index.html": "/profile/index.html",
-    "main.d7c12fa8.css.map": "/profile/static/css/main.d7c12fa8.css.map",
-    "main.192c63ab.js.map": "/profile/static/js/main.192c63ab.js.map",
+    "main.a06c74f7.css.map": "/profile/static/css/main.a06c74f7.css.map",
+    "main.368e83df.js.map": "/profile/static/js/main.368e83df.js.map",
     "787.60235f71.chunk.js.map": "/profile/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7c12fa8.css",
-    "static/js/main.192c63ab.js"
+    "static/css/main.a06c74f7.css",
+    "static/js/main.368e83df.js"
   ]
 }
