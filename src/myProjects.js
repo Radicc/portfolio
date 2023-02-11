@@ -4,6 +4,7 @@ import "./css/Cv.scss";
 
 import ProjectFuture from "./images/ProjectNow.jpg";
 import WallStreetProject from "./images/wallstreetProject.jpg";
+import Portfolio from "./images/Portfolio.jpg";
 
 export default function MyProjects() {
   return (
@@ -12,46 +13,14 @@ export default function MyProjects() {
       <div className="projectBox1">
         <img
           onClick={() =>
-            (window.location.href =
-              "https://radicc.github.io/Research_Platform/")
+            (window.location.href = "https://github.com/Radicc/profile")
           }
           className="imgBox1"
-          src={WallStreetProject}
+          src={Portfolio}
           alt="error"
         ></img>
         <div className="projectContainer">
-          <h2 className="projectContainerTitul">Research Platform</h2>
-          <p className="textBox">
-            Investment educative website with tools like a Retirement calculator
-            and study sections with free information about the best investment
-            books, youtube channels, and websites. In the future, I am going to
-            add StockAnalyzer tool for calculating the fair value of specific
-            stock and fundamental information like the Metrics, Income
-            Statement, Balance Sheet and Cashflow.
-          </p>
-          <div className="CVbutton2Container">
-            <div
-              disabled
-              onClick={() =>
-                (window.location.href =
-                  "https://radicc.github.io/Research_Platform/")
-              }
-              className="Cvbutton2"
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              VISIT NOW!
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="projectBox2">
-        <img className="imgBox2" src={ProjectFuture}></img>
-        <div className="projectContainer2">
-          <h2 className="projectContainerTitul">ESHOP</h2>
+          <h2 className="projectContainerTitul">Portfolio</h2>
           <p className="textBox">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
             turpis in urna lacinia luctus. Phasellus placerat tempor urna nec
@@ -63,14 +32,64 @@ export default function MyProjects() {
             Nullam id posuere massa, sit amet rhoncus nulla. Morbi suscipit urna
             vitae tellus viverra, sed scelerisque odio ultrices.
           </p>
+          <div className="CVbutton2Container">
+            <div
+              disabled
+              onClick={() =>
+                (window.location.href = "https://github.com/Radicc/profile")
+              }
+              className="Cvbutton2"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Code
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="projectBox2">
+        <img className="imgBox2" src={WallStreetProject}></img>
+        <div className="projectContainer2">
+          <h2 className="projectContainerTitul">Research Platform</h2>
+          <p className="textBox">
+            Free investment educative website with tools like a Retirement
+            calculator and study sections with free information about the best
+            investment books, youtube channels, and websites. In the future, I
+            am going to add StockAnalyzer tool for calculating the fair value of
+            specific stock and fundamental information like the Metrics, Income
+            Statement, Balance Sheet and Cashflow.
+          </p>
 
           <div className="CVbutton2Container">
-            <div className="Cvbutton2">
+            <div
+              disabled
+              onClick={() =>
+                (window.location.href =
+                  "https://github.com/Radicc/Research_Platform")
+              }
+              className="Cvbutton2"
+            >
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              VISIT NOW!
+              Code
+            </div>
+            <div
+              onClick={() =>
+                (window.location.href =
+                  "https://radicc.github.io/Research_Platform/")
+              }
+              className="Cvbutton2"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              VISIT
             </div>
           </div>
         </div>
@@ -92,12 +111,26 @@ export default function MyProjects() {
             vitae tellus viverra, sed scelerisque odio ultrices.
           </p>
           <div className="CVbutton2Container">
+            <div
+              disabled
+              onClick={() =>
+                (window.location.href =
+                  "https://github.com/Radicc/Research_Platform")
+              }
+              className="Cvbutton2"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Code
+            </div>
             <div className="Cvbutton2">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              VISIT NOW!
+              VISIT
             </div>
           </div>
         </div>
