@@ -10,7 +10,7 @@ import gitHub from "../images/GitHub.png";
 import linkedIN from "../images/linkedIN.png";
 import twitter from "../images/twitterLogo.png";
 import instagram from "../images/instagram.png";
-import avatar from "../images/Tom1.jpg";
+import avatar from "../images/avatar.jpg";
 
 export default function Footer(props) {
   //const [show, setShow] = useState("CvForm-Footer2None");
@@ -87,7 +87,14 @@ export default function Footer(props) {
             </div>
             <div className="AboutMe">
               <h3 className="titles">WORK EXPERIENCE</h3>
-              <p></p>
+              <p>
+                ● Reprezentačné portfolio - Informácie o mne Informácie o mojích
+                zručnostiach.
+              </p>
+              <p>
+                ● Vzdelávacia platforma - Investičný bezplatný vzdelávací
+                projekt pre ľudí, ktorí sa chcú zlepšiť v oblasti správy aktív.
+              </p>
             </div>
             <div className="AboutMe">
               <h3 className="titles">SOFTWARE SKILL</h3>

@@ -1,6 +1,6 @@
 Portfolio
 
-My portfolio website. Here i show my skill set via projects.
+My portfolio website. Where I show my skill set via projects.
 ( This project is my educative project )
 
 What can you find on the website?:
@@ -15,3 +15,5 @@ What can you find on the website?:
 ● CV + Contact:
 
 ![Alt text](/src/images/Portfolio4.jpg "Portfolio4")
+![Alt text](/src/images/Portfolio4CV.jpg "Portfolio4CV")
+![Alt text](/src/images/Portfolio4Contact.jpg "Portfolio4Contact")
