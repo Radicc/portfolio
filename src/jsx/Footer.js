@@ -88,12 +88,11 @@ export default function Footer(props) {
             <div className="AboutMe">
               <h3 className="titles">WORK EXPERIENCE</h3>
               <p>
-                ● Reprezentačné portfolio - Informácie o mne Informácie o mojích
-                zručnostiach.
+                ● Representative portfolio - Information about me and my skills.
               </p>
               <p>
-                ● Vzdelávacia platforma - Investičný bezplatný vzdelávací
-                projekt pre ľudí, ktorí sa chcú zlepšiť v oblasti správy aktív.
+                ● Educational platform - Investment-free educational project for
+                people who want to improve in asset management.
               </p>
             </div>
             <div className="AboutMe">
