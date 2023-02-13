@@ -29,9 +29,9 @@ function App() {
             </div>
             <h1 className="tomRadText">A Frontend developer</h1>
             <h3 className="tomRadUnderText">
-              Passionate junior front-end developer with a desire to learn and
-              grow in a collaborative team environment. Skilled in HTML, CSS,
-              and JavaScript. Specializing in ReactJS library.
+              Passionate front-end developer with a desire to learn and grow in
+              a collaborative team environment. Skilled in HTML, CSS, and
+              JavaScript. Specializing in ReactJS library.
             </h3>
           </div>
 
