@@ -106,7 +106,7 @@
   position: relative;
   display: flex;
 
-  font-size: 2.8em;
+  font-size: 2.8vw;
   color: antiquewhite;
 }
 
@@ -160,13 +160,13 @@
 }
 .Education h2 {
   color: whitesmoke;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   text-shadow: 1.5px 1.5px #060810;
   text-decoration: underline whitesmoke;
 }
 .Education p {
   color: whitesmoke;
-  font-size: 1.1em;
+  font-size: 1.1vw;
   margin: 0.5vh;
   width: 80%;
 }
@@ -180,14 +180,14 @@
 }
 .Reference h2 {
   color: whitesmoke;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   text-shadow: 1.5px 1.5px #060810;
   margin-bottom: 0.5vh;
   text-decoration: underline whitesmoke;
 }
 .Reference p {
   color: whitesmoke;
-  font-size: 1.1em;
+  font-size: 1.1vw;
   margin: 0.5vh;
 }
 .CvContact {
@@ -200,7 +200,7 @@
 }
 .CvContact h3 {
   background-color: black;
-  font-size: 1.8em;
+  font-size: 1.8vw;
   text-shadow: 1.2px 1.2px rgb(0, 0, 0);
   color: whitesmoke;
   width: 100%;
@@ -209,7 +209,7 @@
 .CvContact p,
 a {
   align-self: center;
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: whitesmoke;
   margin: 0vh;
 }
@@ -232,7 +232,7 @@ a {
 }
 .NameTitul h1 {
   position: relative;
-  font-size: 6em;
+  font-size: 6vw;
   left: 10vh;
   margin: 0;
 
@@ -241,7 +241,7 @@ a {
 }
 .NameTitul p {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   left: 11vh;
   margin: 0;
 
@@ -265,9 +265,10 @@ a {
 .AboutMe p {
   position: relative;
   display: flex;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   width: 70%;
   align-self: center;
+  margin: 0.5em;
 }
 .Footer2 {
   display: flex;
@@ -283,7 +284,7 @@ a {
 .Footer2 a {
   position: relative;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 2vw;
   color: rgb(240, 240, 240);
   cursor: url("../images/iconmonstr-cursor-2.png"), default;
   text-decoration: none;
@@ -321,12 +322,12 @@ a {
   width: 40%;
   height: 90%;
   gap: 4.5vh;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   padding-top: 5vh;
 }
 .contactContainer h1 {
   position: relative;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   color: #16e561;
   text-shadow: 2px 2px #086425;
   margin: 0;
@@ -335,7 +336,7 @@ a {
   width: 30vw;
   height: 5vh;
   cursor: auto;
-  font-size: 0.8em;
+  font-size: 0.8vw;
   padding-left: 1vw;
   border: 5px solid #16e561;
   border-radius: 3px;
@@ -354,7 +355,7 @@ a {
   width: 30vw;
   height: 20vh;
   cursor: auto;
-  font-size: 0.8em;
+  font-size: 0.8vw;
   padding-left: 1vw;
   padding-top: 1vw;
   border: 5px solid #16e561;
@@ -383,7 +384,7 @@ a {
 }
 .Footer3 p {
   color: #16e561;
-  font-size: 1.2rem;
+  font-size: 1vw;
 }
 
 /* Smartphones (portrait) ----------- */

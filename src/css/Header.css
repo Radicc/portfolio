@@ -28,7 +28,7 @@
   top: 1.5vh;
   left: 10vh;
 
-  font-size: 3rem;
+  font-size: 2.6vw;
   color: #060810;
   text-shadow: 2px 2px #060810;
   text-decoration: none;
@@ -76,14 +76,14 @@
 .ulNav li {
   list-style-type: none;
   text-decoration: none;
-  font-size: 5.5rem;
+  font-size: 5.3vw;
 }
 .ulNav li a {
   cursor: url("../images/iconmonstr-cursor-2.png"), default;
   color: #16e561;
   text-shadow: 2px 2px #086425;
   text-decoration: none;
-  font-size: 6rem;
+  font-size: 5.8vw;
 }
 .ulNav li:hover {
   list-style-type: "👉";
@@ -181,8 +181,7 @@
 }
 .imgSocial {
   position: relative;
-  width: 94px;
-  height: 94px;
+  width: 6vw;
   left: 15%;
   top: -1vh;
   cursor: url("../images/iconmonstr-cursor-2.png"), default;

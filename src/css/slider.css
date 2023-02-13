@@ -37,7 +37,7 @@
 .notSliderImg {
   position: relative;
   filter: drop-shadow(5px 5px 5px #000000);
-  max-width: 550px;
+  max-width: 60%;
   left: 20%;
   opacity: 1;
   top: -5vh;
@@ -80,14 +80,14 @@
 
 .tomRadHi {
   color: #16e561;
-  font-size: 2em;
+  font-size: 1.6vw;
   text-shadow: 2px 2px #086425;
   margin: 0;
 }
 .tomRadText {
   position: relative;
   color: #16e561;
-  font-size: 5em;
+  font-size: 4.5vw;
   z-index: 2;
   margin: 0;
 
@@ -95,6 +95,7 @@
 }
 .tomRadUnderText {
   position: relative;
+  font-size: 0.9vw;
 
   left: 1%;
   top: 3%;
