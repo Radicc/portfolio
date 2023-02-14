@@ -1,4 +1,4 @@
-Portfolio: https://radicc.github.io/profile/
+Portfolio: https://radicc.github.io/portfolio/
 
 My portfolio website. Where I show my skill set via projects.
 ( This project is my educative project )
