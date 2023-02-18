@@ -13,7 +13,7 @@ export default function MyProjects() {
       <div className="projectBox1">
         <img
           onClick={() =>
-            (window.location.href = "https://github.com/Radicc/profile")
+            (window.location.href = "https://github.com/Radicc/profile ")
           }
           className="imgBox1"
           src={Portfolio}
