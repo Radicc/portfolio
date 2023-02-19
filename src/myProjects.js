@@ -13,7 +13,7 @@ export default function MyProjects() {
       <div className="projectBox1">
         <img
           onClick={() =>
-            (window.location.href = "https://github.com/Radicc/profile ")
+            window.open("https://github.com/Radicc/profile", "_blank")
           }
           className="imgBox1"
           src={Portfolio}
@@ -36,7 +36,7 @@ export default function MyProjects() {
             <div
               disabled
               onClick={() =>
-                (window.location.href = "https://github.com/Radicc/profile")
+                window.open("https://github.com/Radicc/profile", "_blank")
               }
               className="Cvbutton2"
             >
@@ -51,7 +51,13 @@ export default function MyProjects() {
       </div>
 
       <div className="projectBox2">
-        <img className="imgBox2" src={WallStreetProject}></img>
+        <img
+          className="imgBox2"
+          src={WallStreetProject}
+          onClick={() =>
+            window.open("https://radicc.github.io/Research_Platform/", "_blank")
+          }
+        ></img>
         <div className="projectContainer2">
           <h2 className="projectContainerTitul">Research Platform</h2>
           <p className="textBox">
@@ -67,8 +73,10 @@ export default function MyProjects() {
             <div
               disabled
               onClick={() =>
-                (window.location.href =
-                  "https://github.com/Radicc/Research_Platform")
+                window.open(
+                  "https://github.com/Radicc/Research_Platform",
+                  "_blank"
+                )
               }
               className="Cvbutton2"
             >
@@ -80,8 +88,10 @@ export default function MyProjects() {
             </div>
             <div
               onClick={() =>
-                (window.location.href =
-                  "https://radicc.github.io/Research_Platform/")
+                window.open(
+                  "https://radicc.github.io/Research_Platform/",
+                  "_blank"
+                )
               }
               className="Cvbutton2"
             >
@@ -113,10 +123,7 @@ export default function MyProjects() {
           <div className="CVbutton2Container">
             <div
               disabled
-              onClick={() =>
-                (window.location.href =
-                  "https://github.com/Radicc/Research_Platform")
-              }
+              onClick={() => window.open("https://github.com/Radicc", "_blank")}
               className="Cvbutton2"
             >
               <span></span>

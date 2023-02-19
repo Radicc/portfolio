@@ -7,6 +7,9 @@
   font-family: "Chakra Petch", sans-serif;
   color: #060810;
 }
+html {
+  overflow-x: hidden;
+}
 .App {
   background: rgb(20, 20, 20);
 }
