@@ -101,6 +101,7 @@
   width: 16%;
 
   top: -0.5vh;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
 }
 .footerText {
   position: relative;
@@ -108,6 +109,7 @@
 
   font-size: 2.8vw;
   color: antiquewhite;
+  cursor: url("../images/iconmonstr-cursor-2.png"), default;
 }
 
 .CvForm-Footer2 {

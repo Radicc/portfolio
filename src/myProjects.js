@@ -61,12 +61,9 @@ export default function MyProjects() {
         <div className="projectContainer2">
           <h2 className="projectContainerTitul">Research Platform</h2>
           <p className="textBox">
-            Free investment educative website with tools like a Retirement
-            calculator and study sections with free information about the best
-            investment books, youtube channels, and websites. In the future, I
-            am going to add StockAnalyzer tool for calculating the fair value of
-            specific stock and fundamental information like the Metrics, Income
-            Statement, Balance Sheet and Cashflow.
+            Free investment educative website for people that want to improve
+            money management skills. Retirement calculator and study sections
+            with the best investment books, youtube channels and websites.
           </p>
 
           <div className="CVbutton2Container">
