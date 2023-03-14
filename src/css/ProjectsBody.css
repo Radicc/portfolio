@@ -45,6 +45,7 @@
   font-size: 2vw;
   margin: 0;
 }
+
 .imgBox1 {
   display: flex;
   position: relative;
@@ -71,7 +72,9 @@
   text-shadow: 1.5px 1.5px rgb(0, 0, 0);
   text-align: center;
 }
-
+.logoes {
+  order: 3;
+}
 .projectBox2 {
   width: 90%;
 
@@ -91,7 +94,7 @@
 }
 .projectContainer2 button {
   position: relative;
-  order: 3;
+  order: 4;
 }
 .imgBox2 {
   display: flex;
